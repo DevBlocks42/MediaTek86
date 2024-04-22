@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_frm_connexion.html#a6e25337a7031769be1ace0b96997518d"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_frm_connexion.html#a6e25337a7031769be1ace0b96997518d"><param name="Name" value="MediaTek86::FrmConnexion"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_absence_personnel.html#a398fd0b638bc1ede73a9c4533954b2fa"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_absence_personnel.html#a398fd0b638bc1ede73a9c4533954b2fa"><param name="Name" value="MediaTek86::View::FrmAbsencePersonnel"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_administration.html#a193cb3d5c0fbd2ecf3735ba8d2ff3142"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_administration.html#a193cb3d5c0fbd2ecf3735ba8d2ff3142"><param name="Name" value="MediaTek86::View::FrmAdministration"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html#a1fd7548f91dabe0e17823a452d4bda26"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html#a1fd7548f91dabe0e17823a452d4bda26"><param name="Name" value="MediaTek86::View::FrmAjoutModifAbsence"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html#a16c898011d7cb5d4804a5ca01a8c4396"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html#a16c898011d7cb5d4804a5ca01a8c4396"><param name="Name" value="MediaTek86::View::FrmAjoutModifPersonnel"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_absence_personnel.html#a55cbebec897a66ded45ec4381651283c"><param name="Name" value="FrmAbsencePersonnel()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a"><param name="Name" value="FrmAdministration()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html#a24f09410dcd589d86870611988e2cc19"><param name="Name" value="FrmAjoutModifAbsence()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html#a924e444e678fcfbe73be98981223d270"><param name="Name" value="FrmAjoutModifPersonnel()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_frm_connexion.html#aad32ab41c429e08054180f2f2ae56b12"><param name="Name" value="FrmConnexion()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_d_a_l_1_1_access.html#a6305cb068d3e34adc81ae067be60b827"><param name="Name" value="GetInstance()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html#a31de1487c9b899cd5ea067cb2ddfdd64"><param name="Name" value="GetInstance(string stringConnect)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_media_tek86.html"><param name="Name" value="MediaTek86"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_media_tek86_1_1_bdd_manager.html"><param name="Name" value="MediaTek86::BddManager"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html"><param name="Name" value="MediaTek86::BddManager::BddManager"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html"><param name="Name" value="MediaTek86::BddManager::BddManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html#a31de1487c9b899cd5ea067cb2ddfdd64"><param name="Name" value="GetInstance(string stringConnect)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html"><param name="Name" value="MediaTek86::BddManager::BddManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html#ae965e8da268fb33399bcd0b3db254dec"><param name="Name" value="ReqControle(string stringQuery)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html"><param name="Name" value="MediaTek86::BddManager::BddManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html#afc2deb5f7438ef3f8bf9b005f57ad689"><param name="Name" value="ReqSelect(string stringQuery, Dictionary&lt; string, object &gt; parameters=null)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html"><param name="Name" value="MediaTek86::BddManager::BddManager"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html#a78a983c6d1169df2c0b91c535344bc65"><param name="Name" value="ReqUpdate(string stringQuery, Dictionary&lt; string, object &gt; parameters=null)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_media_tek86_1_1_d_a_l.html"><param name="Name" value="MediaTek86::DAL"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_d_a_l_1_1_access.html"><param name="Name" value="MediaTek86::DAL::Access"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_d_a_l_1_1_access.html"><param name="Name" value="MediaTek86::DAL::Access"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_d_a_l_1_1_access.html#a6305cb068d3e34adc81ae067be60b827"><param name="Name" value="GetInstance()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_d_a_l_1_1_access.html"><param name="Name" value="MediaTek86::DAL::Access"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_d_a_l_1_1_access.html#aead9b08d9ee838659fbdf893fe92a7df"><param name="Name" value="bddManager"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_frm_connexion.html"><param name="Name" value="MediaTek86::FrmConnexion"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_frm_connexion.html"><param name="Name" value="MediaTek86::FrmConnexion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_frm_connexion.html#a6e25337a7031769be1ace0b96997518d"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_frm_connexion.html"><param name="Name" value="MediaTek86::FrmConnexion"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_frm_connexion.html#aad32ab41c429e08054180f2f2ae56b12"><param name="Name" value="FrmConnexion()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_media_tek86_1_1_model.html"><param name="Name" value="MediaTek86::Model"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="namespace_media_tek86_1_1_view.html"><param name="Name" value="MediaTek86::View"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_absence_personnel.html"><param name="Name" value="MediaTek86::View::FrmAbsencePersonnel"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_absence_personnel.html"><param name="Name" value="MediaTek86::View::FrmAbsencePersonnel"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_absence_personnel.html#a398fd0b638bc1ede73a9c4533954b2fa"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_absence_personnel.html"><param name="Name" value="MediaTek86::View::FrmAbsencePersonnel"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_absence_personnel.html#a55cbebec897a66ded45ec4381651283c"><param name="Name" value="FrmAbsencePersonnel()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_administration.html"><param name="Name" value="MediaTek86::View::FrmAdministration"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_administration.html"><param name="Name" value="MediaTek86::View::FrmAdministration"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_administration.html#a193cb3d5c0fbd2ecf3735ba8d2ff3142"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_administration.html"><param name="Name" value="MediaTek86::View::FrmAdministration"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a"><param name="Name" value="FrmAdministration()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html"><param name="Name" value="MediaTek86::View::FrmAjoutModifAbsence"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html"><param name="Name" value="MediaTek86::View::FrmAjoutModifAbsence"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html#a1fd7548f91dabe0e17823a452d4bda26"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html"><param name="Name" value="MediaTek86::View::FrmAjoutModifAbsence"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html#a24f09410dcd589d86870611988e2cc19"><param name="Name" value="FrmAjoutModifAbsence()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html"><param name="Name" value="MediaTek86::View::FrmAjoutModifPersonnel"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html"><param name="Name" value="MediaTek86::View::FrmAjoutModifPersonnel"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html#a16c898011d7cb5d4804a5ca01a8c4396"><param name="Name" value="Dispose(bool disposing)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html"><param name="Name" value="MediaTek86::View::FrmAjoutModifPersonnel"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html#a924e444e678fcfbe73be98981223d270"><param name="Name" value="FrmAjoutModifPersonnel()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html#ae965e8da268fb33399bcd0b3db254dec"><param name="Name" value="ReqControle(string stringQuery)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html#afc2deb5f7438ef3f8bf9b005f57ad689"><param name="Name" value="ReqSelect(string stringQuery, Dictionary&lt; string, object &gt; parameters=null)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_bdd_manager_1_1_bdd_manager.html#a78a983c6d1169df2c0b91c535344bc65"><param name="Name" value="ReqUpdate(string stringQuery, Dictionary&lt; string, object &gt; parameters=null)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_media_tek86_1_1_d_a_l_1_1_access.html#aead9b08d9ee838659fbdf893fe92a7df"><param name="Name" value="bddManager"></OBJECT>
+</UL>
+</BODY>
+</HTML>

@@ -3,7 +3,7 @@ namespace MediaTek86
     internal static class Program
     {
         /// <summary>
-        ///  The main entry point for the application.
+        ///  Point d'entrée de l'application
         /// </summary>
         [STAThread]
         static void Main()
