@@ -27,18 +27,55 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmConnexion));
+            TbxLogin = new TextBox();
+            TbxPwd = new TextBox();
+            LblConnexion = new Label();
+            BtnConnect = new Button();
             SuspendLayout();
+            // 
+            // TbxLogin
+            // 
+            resources.ApplyResources(TbxLogin, "TbxLogin");
+            TbxLogin.Name = "TbxLogin";
+            // 
+            // TbxPwd
+            // 
+            resources.ApplyResources(TbxPwd, "TbxPwd");
+            TbxPwd.Name = "TbxPwd";
+            // 
+            // LblConnexion
+            // 
+            resources.ApplyResources(LblConnexion, "LblConnexion");
+            LblConnexion.Name = "LblConnexion";
+            // 
+            // BtnConnect
+            // 
+            resources.ApplyResources(BtnConnect, "BtnConnect");
+            BtnConnect.Name = "BtnConnect";
+            BtnConnect.UseVisualStyleBackColor = true;
             // 
             // FrmConnexion
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            Controls.Add(BtnConnect);
+            Controls.Add(LblConnexion);
+            Controls.Add(TbxPwd);
+            Controls.Add(TbxLogin);
+            MaximizeBox = false;
             Name = "FrmConnexion";
-            Text = "Form1";
+            ShowIcon = false;
+            Load += FrmConnexion_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox TbxLogin;
+        private TextBox TbxPwd;
+        private Label LblConnexion;
+        private Button BtnConnect;
     }
 }
