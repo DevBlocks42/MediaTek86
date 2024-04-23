@@ -54,6 +54,7 @@
             resources.ApplyResources(BtnConnect, "BtnConnect");
             BtnConnect.Name = "BtnConnect";
             BtnConnect.UseVisualStyleBackColor = true;
+            BtnConnect.Click += BtnConnect_Click;
             // 
             // FrmConnexion
             // 

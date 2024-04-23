@@ -135,6 +135,9 @@
   <data name="TbxPwd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <data name="TbxPwd.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
   <data name="TbxPwd.PlaceholderText" xml:space="preserve">
     <value>Mot de passe</value>
   </data>

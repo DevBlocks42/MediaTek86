@@ -21,7 +21,7 @@ namespace MediaTek86.DAL
         /// <summary>
         /// Nom de connexion à la bdd
         /// </summary>
-        private static readonly string connectionName = "";
+        private static readonly string connectionName = "MediaTek86.Properties.Settings.connectionString";
         /// <summary>
         /// Getter sur l'objet d'accès aux données
         /// </summary>
