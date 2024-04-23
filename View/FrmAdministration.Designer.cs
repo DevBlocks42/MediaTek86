@@ -85,6 +85,7 @@
             MaximizeBox = false;
             Name = "FrmAdministration";
             ShowIcon = false;
+            Load += FrmAdministration_Load;
             ResumeLayout(false);
             PerformLayout();
         }

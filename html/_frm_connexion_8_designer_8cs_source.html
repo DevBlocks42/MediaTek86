@@ -146,32 +146,33 @@ $(function(){initNavTree('_frm_connexion_8_designer_8cs_source.html',''); initRe
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            resources.ApplyResources(BtnConnect, <span class="stringliteral">&quot;BtnConnect&quot;</span>);</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            BtnConnect.Name = <span class="stringliteral">&quot;BtnConnect&quot;</span>;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            BtnConnect.UseVisualStyleBackColor = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            <span class="comment">// </span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="comment">// FrmConnexion</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="comment">// </span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            resources.ApplyResources(<span class="keyword">this</span>, <span class="stringliteral">&quot;$this&quot;</span>);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            AutoScaleMode = AutoScaleMode.Font;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            Controls.Add(BtnConnect);</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            Controls.Add(LblConnexion);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            Controls.Add(TbxPwd);</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            Controls.Add(TbxLogin);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            MaximizeBox = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            Name = <span class="stringliteral">&quot;FrmConnexion&quot;</span>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            ShowIcon = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            Load += FrmConnexion_Load;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            ResumeLayout(<span class="keyword">false</span>);</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            PerformLayout();</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        }</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">        #endregion</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keyword">private</span> TextBox TbxLogin;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keyword">private</span> TextBox TbxPwd;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keyword">private</span> Label LblConnexion;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keyword">private</span> Button BtnConnect;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    }</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>}</div>
-<div class="ttc" id="aclass_media_tek86_1_1_frm_connexion_html"><div class="ttname"><a href="class_media_tek86_1_1_frm_connexion.html">MediaTek86.FrmConnexion</a></div><div class="ttdef"><b>Definition</b> <a href="_frm_connexion_8cs_source.html#l00003">FrmConnexion.cs:4</a></div></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>            BtnConnect.Click += BtnConnect_Click;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            <span class="comment">// </span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="comment">// FrmConnexion</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="comment">// </span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            resources.ApplyResources(<span class="keyword">this</span>, <span class="stringliteral">&quot;$this&quot;</span>);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            AutoScaleMode = AutoScaleMode.Font;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            Controls.Add(BtnConnect);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            Controls.Add(LblConnexion);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            Controls.Add(TbxPwd);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            Controls.Add(TbxLogin);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            MaximizeBox = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            Name = <span class="stringliteral">&quot;FrmConnexion&quot;</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            ShowIcon = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            Load += FrmConnexion_Load;</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            ResumeLayout(<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            PerformLayout();</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        }</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">        #endregion</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keyword">private</span> TextBox TbxLogin;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keyword">private</span> TextBox TbxPwd;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keyword">private</span> Label LblConnexion;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="keyword">private</span> Button BtnConnect;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    }</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>}</div>
+<div class="ttc" id="aclass_media_tek86_1_1_frm_connexion_html"><div class="ttname"><a href="class_media_tek86_1_1_frm_connexion.html">MediaTek86.FrmConnexion</a></div><div class="ttdef"><b>Definition</b> <a href="_frm_connexion_8cs_source.html#l00006">FrmConnexion.cs:7</a></div></div>
 <div class="ttc" id="aclass_media_tek86_1_1_frm_connexion_html_a6e25337a7031769be1ace0b96997518d"><div class="ttname"><a href="class_media_tek86_1_1_frm_connexion.html#a6e25337a7031769be1ace0b96997518d">MediaTek86.FrmConnexion.Dispose</a></div><div class="ttdeci">override void Dispose(bool disposing)</div><div class="ttdoc">Clean up any resources being used.</div><div class="ttdef"><b>Definition</b> <a href="#l00014">FrmConnexion.Designer.cs:14</a></div></div>
 <div class="ttc" id="anamespace_media_tek86_html"><div class="ttname"><a href="namespace_media_tek86.html">MediaTek86</a></div><div class="ttdef"><b>Definition</b> <a href="_bdd_manager_8cs_source.html#l00008">BddManager.cs:9</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

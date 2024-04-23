@@ -177,21 +177,22 @@ $(function(){initNavTree('_frm_administration_8_designer_8cs_source.html',''); i
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            MaximizeBox = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            Name = <span class="stringliteral">&quot;FrmAdministration&quot;</span>;</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            ShowIcon = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            ResumeLayout(<span class="keyword">false</span>);</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            PerformLayout();</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        }</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">        #endregion</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        <span class="keyword">private</span> ListBox LbxPersonnel;</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keyword">private</span> Label LblGestionPersonnel;</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keyword">private</span> Button BtnAddPersonnel;</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keyword">private</span> Button BtnEditPersonnel;</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keyword">private</span> Button BtnAbsencePersonnel;</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keyword">private</span> Button BtnDeletePersonnel;</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    }</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>}</div>
-<div class="ttc" id="aclass_media_tek86_1_1_view_1_1_frm_administration_html"><div class="ttname"><a href="class_media_tek86_1_1_view_1_1_frm_administration.html">MediaTek86.View.FrmAdministration</a></div><div class="ttdef"><b>Definition</b> <a href="_frm_administration_8cs_source.html#l00013">FrmAdministration.cs:14</a></div></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            Load += FrmAdministration_Load;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            ResumeLayout(<span class="keyword">false</span>);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            PerformLayout();</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        }</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="preprocessor">        #endregion</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <span class="keyword">private</span> ListBox LbxPersonnel;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <span class="keyword">private</span> Label LblGestionPersonnel;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keyword">private</span> Button BtnAddPersonnel;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keyword">private</span> Button BtnEditPersonnel;</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keyword">private</span> Button BtnAbsencePersonnel;</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        <span class="keyword">private</span> Button BtnDeletePersonnel;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    }</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>}</div>
+<div class="ttc" id="aclass_media_tek86_1_1_view_1_1_frm_administration_html"><div class="ttname"><a href="class_media_tek86_1_1_view_1_1_frm_administration.html">MediaTek86.View.FrmAdministration</a></div><div class="ttdef"><b>Definition</b> <a href="_frm_administration_8cs_source.html#l00015">FrmAdministration.cs:16</a></div></div>
 <div class="ttc" id="aclass_media_tek86_1_1_view_1_1_frm_administration_html_a193cb3d5c0fbd2ecf3735ba8d2ff3142"><div class="ttname"><a href="class_media_tek86_1_1_view_1_1_frm_administration.html#a193cb3d5c0fbd2ecf3735ba8d2ff3142">MediaTek86.View.FrmAdministration.Dispose</a></div><div class="ttdeci">override void Dispose(bool disposing)</div><div class="ttdoc">Clean up any resources being used.</div><div class="ttdef"><b>Definition</b> <a href="#l00014">FrmAdministration.Designer.cs:14</a></div></div>
 <div class="ttc" id="anamespace_media_tek86_1_1_view_html"><div class="ttname"><a href="namespace_media_tek86_1_1_view.html">MediaTek86.View</a></div><div class="ttdef"><b>Definition</b> <a href="_frm_absence_personnel_8cs_source.html#l00011">FrmAbsencePersonnel.cs:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

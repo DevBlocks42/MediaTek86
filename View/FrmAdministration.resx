@@ -117,85 +117,67 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BtnAbsencePersonnel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="BtnEditPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnEditPersonnel.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;BtnDeletePersonnel.Name" xml:space="preserve">
+    <value>BtnDeletePersonnel</value>
   </data>
-  <data name="&gt;&gt;BtnEditPersonnel.Name" xml:space="preserve">
-    <value>BtnEditPersonnel</value>
+  <data name="&gt;&gt;listBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;LblGestionPersonnel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;BtnAddPersonnel.Name" xml:space="preserve">
-    <value>BtnAddPersonnel</value>
-  </data>
   <data name="&gt;&gt;BtnAddPersonnel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnAddPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;BtnDeletePersonnel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblGestionPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LbxPersonnel.Name" xml:space="preserve">
-    <value>LbxPersonnel</value>
-  </data>
-  <data name="&gt;&gt;LblGestionPersonnel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;listBox1.Name" xml:space="preserve">
-    <value>listBox1</value>
-  </data>
-  <data name="&gt;&gt;BtnAddPersonnel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnAbsencePersonnel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnAbsencePersonnel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="BtnEditPersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 200</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
-  <data name="BtnDeletePersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>681, 259</value>
-  </data>
-  <data name="BtnDeletePersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;BtnDeletePersonnel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnEditPersonnel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BtnAddPersonnel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;BtnAddPersonnel.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;listBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnDeletePersonnel.Name" xml:space="preserve">
-    <value>BtnDeletePersonnel</value>
+  <data name="&gt;&gt;BtnAbsencePersonnel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDeletePersonnel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LbxPersonnel.Name" xml:space="preserve">
+    <value>LbxPersonnel</value>
+  </data>
+  <data name="BtnAbsencePersonnel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="BtnAddPersonnel.Location" type="System.Drawing.Point, System.Drawing">
     <value>681, 200</value>
   </data>
-  <data name="LblGestionPersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>641, 75</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;BtnAddPersonnel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Name" xml:space="preserve">
+    <value>listBox1</value>
+  </data>
+  <data name="&gt;&gt;LblGestionPersonnel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LbxPersonnel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -203,74 +185,92 @@
   <data name="listBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;BtnEditPersonnel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnAbsencePersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 259</value>
-  </data>
-  <data name="LbxPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="BtnDeletePersonnel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;listBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LbxPersonnel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnAbsencePersonnel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblGestionPersonnel.Name" xml:space="preserve">
-    <value>LblGestionPersonnel</value>
-  </data>
-  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;listBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Administration - accueil</value>
-  </data>
-  <data name="&gt;&gt;BtnAbsencePersonnel.Name" xml:space="preserve">
-    <value>BtnAbsencePersonnel</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="BtnDeletePersonnel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;BtnEditPersonnel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="BtnDeletePersonnel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 259</value>
+  </data>
+  <data name="&gt;&gt;BtnEditPersonnel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblGestionPersonnel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>641, 75</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FrmAdministration</value>
   </data>
-  <data name="&gt;&gt;LbxPersonnel.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
   </data>
-  <data name="&gt;&gt;BtnDeletePersonnel.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;BtnDeletePersonnel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LbxPersonnel.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+  <data name="&gt;&gt;BtnAbsencePersonnel.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;listBox1.ZOrder" xml:space="preserve">
+  <data name="$this.Text" xml:space="preserve">
+    <value>Administration - accueil</value>
+  </data>
+  <data name="LblGestionPersonnel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LbxPersonnel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;LblGestionPersonnel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BtnAddPersonnel.Name" xml:space="preserve">
+    <value>BtnAddPersonnel</value>
   </data>
-  <data name="BtnAbsencePersonnel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BtnAddPersonnel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnEditPersonnel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>772, 200</value>
+  </data>
+  <data name="BtnEditPersonnel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnAddPersonnel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnDeletePersonnel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="BtnAddPersonnel.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;LblGestionPersonnel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblGestionPersonnel.Name" xml:space="preserve">
+    <value>LblGestionPersonnel</value>
+  </data>
+  <data name="&gt;&gt;BtnEditPersonnel.Name" xml:space="preserve">
+    <value>BtnEditPersonnel</value>
+  </data>
+  <data name="&gt;&gt;LbxPersonnel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnAbsencePersonnel.Name" xml:space="preserve">
+    <value>BtnAbsencePersonnel</value>
+  </data>
+  <data name="&gt;&gt;LbxPersonnel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnEditPersonnel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnEditPersonnel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;BtnDeletePersonnel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnAbsencePersonnel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>772, 259</value>
   </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>fr-FR</value>

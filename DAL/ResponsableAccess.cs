@@ -23,7 +23,7 @@ namespace MediaTek86.DAL
         /// Vérifie les identifiants du responsable
         /// </summary>
         /// <param name="login"></param>
-        /// <param name="pwd"></param>
+        /// <param name="pass"></param>
         /// <returns>True si les identifiants sont corrects, false si incorrects.</returns>
         public Boolean controleAuthentification(String login, String pass)
         {

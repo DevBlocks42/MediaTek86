@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['frmabsencepersonnel_0',['FrmAbsencePersonnel',['../class_media_tek86_1_1_view_1_1_frm_absence_personnel.html#a55cbebec897a66ded45ec4381651283c',1,'MediaTek86::View::FrmAbsencePersonnel']]],
-  ['frmadministration_1',['FrmAdministration',['../class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a',1,'MediaTek86::View::FrmAdministration']]],
-  ['frmajoutmodifabsence_2',['FrmAjoutModifAbsence',['../class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html#a24f09410dcd589d86870611988e2cc19',1,'MediaTek86::View::FrmAjoutModifAbsence']]],
-  ['frmajoutmodifpersonnel_3',['FrmAjoutModifPersonnel',['../class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html#a924e444e678fcfbe73be98981223d270',1,'MediaTek86::View::FrmAjoutModifPersonnel']]],
-  ['frmconnexion_4',['FrmConnexion',['../class_media_tek86_1_1_frm_connexion.html#aad32ab41c429e08054180f2f2ae56b12',1,'MediaTek86::FrmConnexion']]]
+  ['dispose_0',['Dispose',['../class_media_tek86_1_1_view_1_1_frm_absence_personnel.html#a398fd0b638bc1ede73a9c4533954b2fa',1,'MediaTek86.View.FrmAbsencePersonnel.Dispose()'],['../class_media_tek86_1_1_view_1_1_frm_administration.html#a193cb3d5c0fbd2ecf3735ba8d2ff3142',1,'MediaTek86.View.FrmAdministration.Dispose()'],['../class_media_tek86_1_1_view_1_1_frm_ajout_modif_absence.html#a1fd7548f91dabe0e17823a452d4bda26',1,'MediaTek86.View.FrmAjoutModifAbsence.Dispose()'],['../class_media_tek86_1_1_view_1_1_frm_ajout_modif_personnel.html#a16c898011d7cb5d4804a5ca01a8c4396',1,'MediaTek86.View.FrmAjoutModifPersonnel.Dispose()'],['../class_media_tek86_1_1_frm_connexion.html#a6e25337a7031769be1ace0b96997518d',1,'MediaTek86.FrmConnexion.Dispose()']]]
 ];

@@ -1,4 +1,5 @@
 using MediaTek86.Controller;
+using MediaTek86.View;
 
 namespace MediaTek86
 {
@@ -10,7 +11,6 @@ namespace MediaTek86
             InitializeComponent();
             controller = new FrmConnexionController();
         }
-
         private void FrmConnexion_Load(object sender, EventArgs e)
         {
             this.ActiveControl = LblConnexion; // évite l'auto-focus sur la 1ère TextBox ce qui engendrait l'impossibilité de voir le placeholder du champs.
@@ -22,6 +22,8 @@ namespace MediaTek86
             {
                 if (controller.controleAuthentification(TbxLogin.Text, TbxPwd.Text))
                 {
+                    FrmAdministration frmAdministration = new FrmAdministration();
+                    frmAdministration.Show();
                     MessageBox.Show("Connexion réussie.");
                 }
                 else

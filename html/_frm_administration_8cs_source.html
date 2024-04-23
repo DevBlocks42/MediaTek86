@@ -99,32 +99,49 @@ $(function(){initNavTree('_frm_administration_8cs_source.html',''); initResizabl
   <div class="headertitle"><div class="title">FrmAdministration.cs</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="_frm_administration_8cs.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System;</div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.ComponentModel;</div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>System.Data;</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">using </span>System.Drawing;</div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">using </span>System.Linq;</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">using </span>System.Text;</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">using </span>System.Threading.Tasks;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using </span>System.Windows.Forms;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_media_tek86_1_1_view.html">MediaTek86.View</a></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_media_tek86_1_1_view_1_1_frm_administration.html">   13</a></span>    <span class="keyword">public</span> <span class="keyword">partial class </span><a class="code hl_class" href="class_media_tek86_1_1_view_1_1_frm_administration.html">FrmAdministration</a> : Form</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    {</div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="}">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a">   15</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a">FrmAdministration</a>()</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>            InitializeComponent();</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        }</div>
+<a href="_frm_administration_8cs.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_media_tek86_1_1_d_a_l.html">MediaTek86.DAL</a>;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_media_tek86_1_1_model.html">MediaTek86.Model</a>;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">using </span>System.ComponentModel;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">using </span>System.Data;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">using </span>System.Drawing;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">using </span>System.Linq;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using </span>System.Text;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">using </span>System.Threading.Tasks;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">using </span>System.Windows.Forms;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_media_tek86_1_1_view.html">MediaTek86.View</a></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_media_tek86_1_1_view_1_1_frm_administration.html">   15</a></span>    <span class="keyword">public</span> <span class="keyword">partial class </span><a class="code hl_class" href="class_media_tek86_1_1_view_1_1_frm_administration.html">FrmAdministration</a> : Form</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">private</span> <a class="code hl_class" href="class_media_tek86_1_1_d_a_l_1_1_personnel_access.html">PersonnelAccess</a> personnelAccess;</div>
+<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a">   18</a></span>        <span class="keyword">public</span> <a class="code hl_function" href="class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a">FrmAdministration</a>()</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            InitializeComponent();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            personnelAccess = <span class="keyword">new</span> <a class="code hl_class" href="class_media_tek86_1_1_d_a_l_1_1_personnel_access.html">PersonnelAccess</a>();</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        }</div>
 </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    }</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="keyword">private</span> <span class="keywordtype">void</span> FrmAdministration_Load(<span class="keywordtype">object</span> sender, EventArgs e)</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            <span class="keywordflow">foreach</span>(<a class="code hl_class" href="class_media_tek86_1_1_model_1_1_personnel.html">Personnel</a> personnel <span class="keywordflow">in</span> personnelAccess.<a class="code hl_function" href="class_media_tek86_1_1_d_a_l_1_1_personnel_access.html#acd57195be00d85f2b43822899db6ab90">getLesPersonnels</a>())</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                LbxPersonnel.Items.Add(personnel.<a class="code hl_function" href="class_media_tek86_1_1_model_1_1_personnel.html#acd56499974659e3c066fe52b39456c67">ToString</a>());</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>            }</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        }</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    }</div>
 </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>}</div>
-<div class="ttc" id="aclass_media_tek86_1_1_view_1_1_frm_administration_html"><div class="ttname"><a href="class_media_tek86_1_1_view_1_1_frm_administration.html">MediaTek86.View.FrmAdministration</a></div><div class="ttdef"><b>Definition</b> <a href="#l00013">FrmAdministration.cs:14</a></div></div>
-<div class="ttc" id="aclass_media_tek86_1_1_view_1_1_frm_administration_html_a9a727166768ab0522a39a369afdf1b6a"><div class="ttname"><a href="class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a">MediaTek86.View.FrmAdministration.FrmAdministration</a></div><div class="ttdeci">FrmAdministration()</div><div class="ttdef"><b>Definition</b> <a href="#l00015">FrmAdministration.cs:15</a></div></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
+<div class="ttc" id="aclass_media_tek86_1_1_d_a_l_1_1_personnel_access_html"><div class="ttname"><a href="class_media_tek86_1_1_d_a_l_1_1_personnel_access.html">MediaTek86.DAL.PersonnelAccess</a></div><div class="ttdoc">Classe d'accès aux données des personnels.</div><div class="ttdef"><b>Definition</b> <a href="_personnel_access_8cs_source.html#l00014">PersonnelAccess.cs:15</a></div></div>
+<div class="ttc" id="aclass_media_tek86_1_1_d_a_l_1_1_personnel_access_html_acd57195be00d85f2b43822899db6ab90"><div class="ttname"><a href="class_media_tek86_1_1_d_a_l_1_1_personnel_access.html#acd57195be00d85f2b43822899db6ab90">MediaTek86.DAL.PersonnelAccess.getLesPersonnels</a></div><div class="ttdeci">List&lt; Personnel &gt; getLesPersonnels()</div><div class="ttdef"><b>Definition</b> <a href="_personnel_access_8cs_source.html#l00027">PersonnelAccess.cs:27</a></div></div>
+<div class="ttc" id="aclass_media_tek86_1_1_model_1_1_personnel_html"><div class="ttname"><a href="class_media_tek86_1_1_model_1_1_personnel.html">MediaTek86.Model.Personnel</a></div><div class="ttdoc">Classe métier interne pour mémoriser les informations d'un personnel.</div><div class="ttdef"><b>Definition</b> <a href="_personnel_8cs_source.html#l00012">Personnel.cs:13</a></div></div>
+<div class="ttc" id="aclass_media_tek86_1_1_model_1_1_personnel_html_acd56499974659e3c066fe52b39456c67"><div class="ttname"><a href="class_media_tek86_1_1_model_1_1_personnel.html#acd56499974659e3c066fe52b39456c67">MediaTek86.Model.Personnel.ToString</a></div><div class="ttdeci">override string ToString()</div><div class="ttdef"><b>Definition</b> <a href="_personnel_8cs_source.html#l00041">Personnel.cs:41</a></div></div>
+<div class="ttc" id="aclass_media_tek86_1_1_view_1_1_frm_administration_html"><div class="ttname"><a href="class_media_tek86_1_1_view_1_1_frm_administration.html">MediaTek86.View.FrmAdministration</a></div><div class="ttdef"><b>Definition</b> <a href="#l00015">FrmAdministration.cs:16</a></div></div>
+<div class="ttc" id="aclass_media_tek86_1_1_view_1_1_frm_administration_html_a9a727166768ab0522a39a369afdf1b6a"><div class="ttname"><a href="class_media_tek86_1_1_view_1_1_frm_administration.html#a9a727166768ab0522a39a369afdf1b6a">MediaTek86.View.FrmAdministration.FrmAdministration</a></div><div class="ttdeci">FrmAdministration()</div><div class="ttdef"><b>Definition</b> <a href="#l00018">FrmAdministration.cs:18</a></div></div>
+<div class="ttc" id="anamespace_media_tek86_1_1_d_a_l_html"><div class="ttname"><a href="namespace_media_tek86_1_1_d_a_l.html">MediaTek86.DAL</a></div><div class="ttdef"><b>Definition</b> <a href="_access_8cs_source.html#l00010">Access.cs:11</a></div></div>
+<div class="ttc" id="anamespace_media_tek86_1_1_model_html"><div class="ttname"><a href="namespace_media_tek86_1_1_model.html">MediaTek86.Model</a></div><div class="ttdef"><b>Definition</b> <a href="_absence_8cs_source.html#l00007">Absence.cs:8</a></div></div>
 <div class="ttc" id="anamespace_media_tek86_1_1_view_html"><div class="ttname"><a href="namespace_media_tek86_1_1_view.html">MediaTek86.View</a></div><div class="ttdef"><b>Definition</b> <a href="_frm_absence_personnel_8cs_source.html#l00011">FrmAbsencePersonnel.cs:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

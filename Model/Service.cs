@@ -23,5 +23,10 @@ namespace MediaTek86.Model
             this.idService = idService;
             this.nom = nom;
         }
+        public String getNom()
+        { 
+            return nom; 
+        }
+
     }
 }

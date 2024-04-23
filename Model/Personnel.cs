@@ -38,5 +38,9 @@ namespace MediaTek86.Model
             this.service = service;
             this.absences = absences;   
         }
+        public override string ToString()
+        {
+            return nom + " " + prenom + "; Service : " + service.getNom();
+        }
     }
 }

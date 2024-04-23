@@ -121,19 +121,13 @@
   <data name="LbxPersonnel.ItemHeight" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LbxPersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LbxPersonnel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LbxPersonnel.Size" type="System.Drawing.Size, System.Drawing">
     <value>516, 724</value>
-  </data>
-  <data name="LbxPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="LblGestionPersonnel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -141,26 +135,11 @@
   <data name="LblGestionPersonnel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 18pt</value>
   </data>
-  <data name="LblGestionPersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>641, 75</value>
-  </data>
   <data name="LblGestionPersonnel.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 32</value>
   </data>
-  <data name="LblGestionPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="LblGestionPersonnel.Text" xml:space="preserve">
     <value>Gestion du personnel</value>
-  </data>
-  <data name="BtnAddPersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>681, 200</value>
-  </data>
-  <data name="BtnAddPersonnel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnAddPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="BtnAddPersonnel.Text" xml:space="preserve">
     <value>Ajouter</value>
@@ -169,44 +148,17 @@
   <data name="BtnEditPersonnel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BtnEditPersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 200</value>
-  </data>
-  <data name="BtnEditPersonnel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnEditPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <data name="BtnEditPersonnel.Text" xml:space="preserve">
     <value>Modifier</value>
   </data>
   <data name="BtnAbsencePersonnel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BtnAbsencePersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 259</value>
-  </data>
-  <data name="BtnAbsencePersonnel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnAbsencePersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
   <data name="BtnAbsencePersonnel.Text" xml:space="preserve">
     <value>Absence(s)</value>
   </data>
   <data name="BtnDeletePersonnel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="BtnDeletePersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>681, 259</value>
-  </data>
-  <data name="BtnDeletePersonnel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnDeletePersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
   </data>
   <data name="BtnDeletePersonnel.Text" xml:space="preserve">
     <value>Supprimer</value>
