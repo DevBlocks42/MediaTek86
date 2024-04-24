@@ -137,6 +137,7 @@
             BtnEnregistrerPersonnel.TabIndex = 10;
             BtnEnregistrerPersonnel.Text = "Enregistrer";
             BtnEnregistrerPersonnel.UseVisualStyleBackColor = true;
+            BtnEnregistrerPersonnel.Click += BtnEnregistrerPersonnel_Click;
             // 
             // BtnRetour
             // 
@@ -146,6 +147,7 @@
             BtnRetour.TabIndex = 11;
             BtnRetour.Text = "Annuler";
             BtnRetour.UseVisualStyleBackColor = true;
+            BtnRetour.Click += BtnRetour_Click;
             // 
             // LblTitreAjoutModif
             // 

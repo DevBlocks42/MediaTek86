@@ -53,24 +53,28 @@
             resources.ApplyResources(BtnAddPersonnel, "BtnAddPersonnel");
             BtnAddPersonnel.Name = "BtnAddPersonnel";
             BtnAddPersonnel.UseVisualStyleBackColor = true;
+            BtnAddPersonnel.Click += BtnAddPersonnel_Click;
             // 
             // BtnEditPersonnel
             // 
             resources.ApplyResources(BtnEditPersonnel, "BtnEditPersonnel");
             BtnEditPersonnel.Name = "BtnEditPersonnel";
             BtnEditPersonnel.UseVisualStyleBackColor = true;
+            BtnEditPersonnel.Click += BtnEditPersonnel_Click;
             // 
             // BtnAbsencePersonnel
             // 
             resources.ApplyResources(BtnAbsencePersonnel, "BtnAbsencePersonnel");
             BtnAbsencePersonnel.Name = "BtnAbsencePersonnel";
             BtnAbsencePersonnel.UseVisualStyleBackColor = true;
+            BtnAbsencePersonnel.Click += BtnAbsencePersonnel_Click;
             // 
             // BtnDeletePersonnel
             // 
             resources.ApplyResources(BtnDeletePersonnel, "BtnDeletePersonnel");
             BtnDeletePersonnel.Name = "BtnDeletePersonnel";
             BtnDeletePersonnel.UseVisualStyleBackColor = true;
+            BtnDeletePersonnel.Click += BtnDeletePersonnel_Click;
             // 
             // FrmAdministration
             // 
