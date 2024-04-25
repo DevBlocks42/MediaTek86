@@ -181,6 +181,26 @@ namespace MediaTek86.DAL
                 Environment.Exit(3306);
             }
         }
+        public void supprimerAbsence(Personnel personnel, Absence absence)
+        {
+            int idPersonnel = personnel.getIdPersonnel();
+            DateTime dateDebut = absence.getDateDebut();
+            String req = "DELETE FROM absence WHERE idpersonnel=@idpersonnel AND datedebut=@datedebut";
+            Dictionary<string, object> parameters = new Dictionary<string, object>()
+            {
+                {"@idpersonnel", idPersonnel},
+                {"@datedebut", dateDebut}
+            };
+            try
+            {
+                access.bddManager.ReqUpdate(req, parameters);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Environment.Exit(3306);
+            }
+        }
         public List<String> getNomServices()
         {
             List<String> noms = new List<String>();

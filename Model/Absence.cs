@@ -30,6 +30,10 @@ namespace MediaTek86.Model
             this.dateFin = dateFin; 
             this.motif = motif;
         }
+        public DateTime getDateDebut()
+        { 
+            return dateDebut; 
+        }   
         public override string ToString()
         {
             return "Absence du " + dateDebut.ToString() + " au " + dateFin.ToString() + " motif : " + motif.getLibelle();

@@ -66,6 +66,10 @@ namespace MediaTek86.Model
         {
             return absences;
         }
+        public void setAbsences(List<Absence> absences)
+        {
+            this.absences = absences;
+        }
         public override string ToString()
         {
             return nom + " " + prenom + "; Service : " + service.getNom();

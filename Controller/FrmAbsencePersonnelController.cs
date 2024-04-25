@@ -1,4 +1,5 @@
 ﻿using MediaTek86.DAL;
+using MediaTek86.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,14 @@ namespace MediaTek86.Controller
         public FrmAbsencePersonnelController()
         {
             personnelAccess = new PersonnelAccess();
+        }
+        public void supprimerAbsence(Personnel personnel, Absence absence)
+        {
+            personnelAccess.supprimerAbsence(personnel, absence);
+        }
+        public List<Absence> getPersonnelAbsences(int idPersonnel)
+        {
+            return personnelAccess.getPersonnelAbsences(idPersonnel);
         }
     }
 }

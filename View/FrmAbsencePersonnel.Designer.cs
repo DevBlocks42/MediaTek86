@@ -52,12 +52,14 @@
             resources.ApplyResources(BtnDeleteAbsence, "BtnDeleteAbsence");
             BtnDeleteAbsence.Name = "BtnDeleteAbsence";
             BtnDeleteAbsence.UseVisualStyleBackColor = true;
+            BtnDeleteAbsence.Click += BtnDeleteAbsence_Click;
             // 
             // BtnEditAbsence
             // 
             resources.ApplyResources(BtnEditAbsence, "BtnEditAbsence");
             BtnEditAbsence.Name = "BtnEditAbsence";
             BtnEditAbsence.UseVisualStyleBackColor = true;
+            BtnEditAbsence.Click += BtnEditAbsence_Click;
             // 
             // BtnAddAbsence
             // 
