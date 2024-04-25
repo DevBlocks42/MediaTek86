@@ -21,12 +21,14 @@ namespace MediaTek86.View
         public FrmAbsencePersonnel(Personnel personnel)
         {
             InitializeComponent();
-            this.personnel = personnel; 
-            foreach(Absence absence in this.personnel.getAbsences())
-            {
-                LbxAbsencesPersonnel.Items.Add(absence.ToString());
-            }
+            this.personnel = personnel;
+            LbxAbsencesPersonnel.DataSource = personnel.getAbsences();
             LblAbsencePersonnel.Text = "Personnel : " + personnel.getPrenom() + " " + personnel.getNom();
+        }
+
+        private void BtnAddAbsence_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -121,19 +121,13 @@
   <data name="LbxAbsencesPersonnel.ItemHeight" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LbxAbsencesPersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LbxAbsencesPersonnel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LbxAbsencesPersonnel.Size" type="System.Drawing.Size, System.Drawing">
     <value>512, 724</value>
-  </data>
-  <data name="LbxAbsencesPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="LblAbsencePersonnel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -145,14 +139,8 @@
   <data name="LblAbsencePersonnel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="LblAbsencePersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>567, 72</value>
-  </data>
   <data name="LblAbsencePersonnel.Size" type="System.Drawing.Size, System.Drawing">
     <value>397, 32</value>
-  </data>
-  <data name="LblAbsencePersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="LblAbsencePersonnel.Text" xml:space="preserve">
     <value>Personnel : Johnatthan Dosettestein</value>
@@ -160,44 +148,17 @@
   <data name="BtnDeleteAbsence.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BtnDeleteAbsence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>681, 259</value>
-  </data>
-  <data name="BtnDeleteAbsence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnDeleteAbsence.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
   <data name="BtnDeleteAbsence.Text" xml:space="preserve">
     <value>Supprimer</value>
   </data>
   <data name="BtnEditAbsence.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BtnEditAbsence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 200</value>
-  </data>
-  <data name="BtnEditAbsence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnEditAbsence.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
   <data name="BtnEditAbsence.Text" xml:space="preserve">
     <value>Modifier</value>
   </data>
   <data name="BtnAddAbsence.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="BtnAddAbsence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>681, 200</value>
-  </data>
-  <data name="BtnAddAbsence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnAddAbsence.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
   </data>
   <data name="BtnAddAbsence.Text" xml:space="preserve">
     <value>Ajouter</value>

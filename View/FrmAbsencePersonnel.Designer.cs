@@ -64,6 +64,7 @@
             resources.ApplyResources(BtnAddAbsence, "BtnAddAbsence");
             BtnAddAbsence.Name = "BtnAddAbsence";
             BtnAddAbsence.UseVisualStyleBackColor = true;
+            BtnAddAbsence.Click += BtnAddAbsence_Click;
             // 
             // FrmAbsencePersonnel
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediaTek86.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,13 @@ namespace MediaTek86.View
 {
     public partial class FrmAjoutModifAbsence : Form
     {
-        public FrmAjoutModifAbsence()
+        private Personnel personnel;
+        private Absence absence;
+        public FrmAjoutModifAbsence(Personnel personnel, Absence absence)
         {
             InitializeComponent();
+            this.personnel = personnel;
+            this.absence = absence; 
         }
     }
 }

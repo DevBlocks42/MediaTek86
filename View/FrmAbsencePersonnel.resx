@@ -117,121 +117,121 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="BtnEditAbsence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 200</value>
+  <data name="&gt;&gt;BtnAddAbsence.Name" xml:space="preserve">
+    <value>BtnAddAbsence</value>
   </data>
-  <data name="&gt;&gt;BtnAddAbsence.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnEditAbsence.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="BtnDeleteAbsence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LbxAbsencesPersonnel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="BtnDeleteAbsence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>681, 259</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
   </data>
-  <data name="BtnAddAbsence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteAbsence.Name" xml:space="preserve">
-    <value>BtnDeleteAbsence</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteAbsence.Type" xml:space="preserve">
+  <data name="&gt;&gt;BtnAddAbsence.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnAddAbsence.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;LblAbsencePersonnel.Name" xml:space="preserve">
+    <value>LblAbsencePersonnel</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LblAbsencePersonnel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;LblAbsencePersonnel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnAddAbsence.Location" type="System.Drawing.Point, System.Drawing">
-    <value>681, 200</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
-  <data name="BtnAddAbsence.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;BtnAddAbsence.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LbxAbsencesPersonnel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnEditAbsence.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Administration - gestion des absences</value>
   </data>
   <data name="BtnEditAbsence.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;LbxAbsencesPersonnel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="LbxAbsencesPersonnel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnEditAbsence.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LbxAbsencesPersonnel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;LbxAbsencesPersonnel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnEditAbsence.Name" xml:space="preserve">
-    <value>BtnEditAbsence</value>
-  </data>
-  <data name="&gt;&gt;LblAbsencePersonnel.Name" xml:space="preserve">
-    <value>LblAbsencePersonnel</value>
-  </data>
-  <data name="&gt;&gt;BtnAddAbsence.Name" xml:space="preserve">
-    <value>BtnAddAbsence</value>
-  </data>
-  <data name="&gt;&gt;LbxAbsencesPersonnel.Name" xml:space="preserve">
-    <value>LbxAbsencesPersonnel</value>
+  <data name="&gt;&gt;LblAbsencePersonnel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnDeleteAbsence.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;LblAbsencePersonnel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="BtnAddAbsence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 200</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Administration - gestion des absences</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteAbsence.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnEditAbsence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnEditAbsence.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmAbsencePersonnel</value>
-  </data>
-  <data name="&gt;&gt;LblAbsencePersonnel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+  <data name="BtnDeleteAbsence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 259</value>
   </data>
   <data name="BtnDeleteAbsence.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="&gt;&gt;LblAbsencePersonnel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LbxAbsencesPersonnel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LbxAbsencesPersonnel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="LblAbsencePersonnel.Location" type="System.Drawing.Point, System.Drawing">
     <value>567, 72</value>
+  </data>
+  <data name="&gt;&gt;BtnAddAbsence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="&gt;&gt;BtnEditAbsence.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LbxAbsencesPersonnel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnDeleteAbsence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteAbsence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LbxAbsencesPersonnel.Name" xml:space="preserve">
+    <value>LbxAbsencesPersonnel</value>
+  </data>
+  <data name="BtnEditAbsence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>772, 200</value>
+  </data>
+  <data name="&gt;&gt;BtnEditAbsence.Name" xml:space="preserve">
+    <value>BtnEditAbsence</value>
+  </data>
+  <data name="BtnAddAbsence.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnAddAbsence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;LbxAbsencesPersonnel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmAbsencePersonnel</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteAbsence.Name" xml:space="preserve">
+    <value>BtnDeleteAbsence</value>
+  </data>
+  <data name="&gt;&gt;BtnEditAbsence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnEditAbsence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;LblAbsencePersonnel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnAddAbsence.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteAbsence.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>fr-FR</value>
