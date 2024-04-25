@@ -80,7 +80,12 @@ namespace MediaTek86.View
         {
             if (LbxPersonnel.SelectedIndex != -1)
             {
-
+                List<Personnel> lesPersonnels = controller.getLesPersonnels();
+                Personnel p = lesPersonnels[LbxPersonnel.SelectedIndex];
+                
+                FrmAbsencePersonnel frmAbsencePersonnel = new FrmAbsencePersonnel(p);
+                this.Close();
+                frmAbsencePersonnel.Show();
             }
             else
             {

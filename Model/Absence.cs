@@ -13,8 +13,8 @@ namespace MediaTek86.Model
     public class Absence
     {
         private int idPersonnel;
-        private MySqlDateTime dateDebut;
-        private MySqlDateTime dateFin;
+        private DateTime dateDebut;
+        private DateTime dateFin;
         private Motif motif;
         /// <summary>
         /// Valorise les propriétés
@@ -23,12 +23,16 @@ namespace MediaTek86.Model
         /// <param name="dateDebut"></param>
         /// <param name="dateFin"></param>
         /// <param name="motif"></param>
-        public Absence(int idPersonnel, MySqlDateTime dateDebut, MySqlDateTime dateFin, Motif motif) 
+        public Absence(int idPersonnel, DateTime dateDebut, DateTime dateFin, Motif motif) 
         { 
             this.idPersonnel = idPersonnel;
             this.dateDebut = dateDebut;
             this.dateFin = dateFin; 
             this.motif = motif;
+        }
+        public override string ToString()
+        {
+            return "Absence du " + dateDebut.ToString() + " au " + dateFin.ToString() + " motif : " + motif.getLibelle();
         }
     }
 }

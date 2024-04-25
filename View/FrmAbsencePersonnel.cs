@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediaTek86.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,20 @@ namespace MediaTek86.View
 {
     public partial class FrmAbsencePersonnel : Form
     {
-        public FrmAbsencePersonnel()
+        private Personnel personnel;
+        /// <summary>
+        /// Valorisation de la propriété privée
+        /// </summary>
+        /// <param name="personnel"></param>
+        public FrmAbsencePersonnel(Personnel personnel)
         {
             InitializeComponent();
+            this.personnel = personnel; 
+            foreach(Absence absence in this.personnel.getAbsences())
+            {
+                LbxAbsencesPersonnel.Items.Add(absence.ToString());
+            }
+            LblAbsencePersonnel.Text = "Personnel : " + personnel.getPrenom() + " " + personnel.getNom();
         }
     }
 }

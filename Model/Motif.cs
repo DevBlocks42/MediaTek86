@@ -23,5 +23,9 @@ namespace MediaTek86.Model
             this.idMotif = idMotif;
             this.libelle = libelle;
         }
+        public String getLibelle()
+        { 
+            return libelle; 
+        } 
     }
 }

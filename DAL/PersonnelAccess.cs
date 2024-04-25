@@ -55,7 +55,7 @@ namespace MediaTek86.DAL
                         {
                             List<Object[]> rows = access.bddManager.ReqSelect(_req, parameters);
                             Service service = new Service((int)l[5], rows[0].GetValue(0).ToString());
-                            List<Absence> absences = null;
+                            List<Absence> absences = getPersonnelAbsences(idPersonnel);
                             Personnel personnel = new Personnel(idPersonnel, prenom, nom, tel, mail, service, absences);
                             lesPersonnels.Add(personnel);
                         }
@@ -77,7 +77,7 @@ namespace MediaTek86.DAL
         public List<Absence> getPersonnelAbsences(int idPersonnel)
         {
             List<Absence> absences = new List<Absence>();
-            String req = "SELECT * FROM absence WHERE idpersonnel=@idpersonnel";
+            String req = "SELECT * FROM absence WHERE idpersonnel=@idpersonnel ORDER BY datedebut";
             Dictionary<string, object> parameters = new Dictionary<string, object>()
             {
                 {"@idpersonnel", idPersonnel}
@@ -87,8 +87,8 @@ namespace MediaTek86.DAL
                 List<Object[]> rows = access.bddManager.ReqSelect(req, parameters);
                 foreach (Object[] row in rows)
                 {
-                    MySqlDateTime dateDebut = (MySqlDateTime)row[1];
-                    MySqlDateTime dateFin = (MySqlDateTime)row[2];
+                    DateTime dateDebut = DateTime.Parse(row[1].ToString());
+                    DateTime dateFin = DateTime.Parse(row[2].ToString());
                     int idMotif = (int)row[3];
                     Motif motif = new Motif(idMotif, getMotifLibelle(idMotif));
                     Absence absence = new Absence(idPersonnel, dateDebut, dateFin, motif);
