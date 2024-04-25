@@ -58,6 +58,10 @@ namespace MediaTek86.Model
         {
             return service;
         }
+        public int getIdPersonnel()
+        { 
+            return idPersonnel; 
+        }
         public override string ToString()
         {
             return nom + " " + prenom + "; Service : " + service.getNom();

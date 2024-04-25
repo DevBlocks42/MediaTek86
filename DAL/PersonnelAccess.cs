@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms.Design;
 
 namespace MediaTek86.DAL
 {
@@ -108,8 +109,17 @@ namespace MediaTek86.DAL
             {
                 {"@idmotif", idMotif}
             };
-            List<Object[]> rows = access.bddManager.ReqSelect(req, parameters);
-            return rows[0].GetValue(0).ToString();
+            try
+            {
+                List<Object[]> rows = access.bddManager.ReqSelect(req, parameters);
+                return rows[0].GetValue(0).ToString();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Environment.Exit(3306);
+            }
+            return null;
         }
         public void ajouterPersonnel(String nom, String prenom, String tel, String mail, int idService)
         {
@@ -122,16 +132,54 @@ namespace MediaTek86.DAL
                 {"@mail", mail},
                 {"@idservice", idService}
             };
-            access.bddManager.ReqUpdate(req, parameters);
+            try
+            {
+                access.bddManager.ReqUpdate(req, parameters);
+            }
+            catch(Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+                Environment.Exit(3306);
+            }
+        }
+        public void updatePersonnel(int idPersonnel, String nom, String prenom, String tel, String mail, int idService)
+        {
+            String req = "UPDATE personnel SET nom=@nom, prenom=@prenom, tel=@tel, mail=@mail, idservice=@idservice WHERE idpersonnel=@idpersonnel";
+            Dictionary<string, object> parameters = new Dictionary<string, object>()
+            {
+                {"@nom", nom},
+                {"@prenom", prenom},
+                {"@tel", tel},
+                {"@mail", mail},
+                {"@idservice", idService},
+                {"@idpersonnel", idPersonnel}
+            };
+            try
+            {
+                access.bddManager.ReqUpdate(req, parameters);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Environment.Exit(3306);
+            }
         }
         public List<String> getNomServices()
         {
             List<String> noms = new List<String>();
             String req = "SELECT nom FROM service;";
-            List<Object[]> rows = access.bddManager.ReqSelect(req); 
-            foreach (Object[] row in rows) 
+            try
             {
-                noms.Add(row[0].ToString());    
+                List<Object[]> rows = access.bddManager.ReqSelect(req);
+                foreach (Object[] row in rows)
+                {
+                    noms.Add(row[0].ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Environment.Exit(3306);
             }
             return noms;
         }

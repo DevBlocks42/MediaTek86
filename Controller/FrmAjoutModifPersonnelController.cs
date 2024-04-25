@@ -27,6 +27,10 @@ namespace MediaTek86.Controller
         {
             personnelAccess.ajouterPersonnel(nom, prenom, tel, mail, idService);
         }
+        public void updatePersonnel(int idPersonnel, String nom, String prenom, String tel, String mail, int idService)
+        {
+            personnelAccess.updatePersonnel(idPersonnel, nom, prenom, tel, mail, idService);
+        }
         public List<String> getNomServices()
         {
             return personnelAccess.getNomServices();

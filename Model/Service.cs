@@ -27,6 +27,10 @@ namespace MediaTek86.Model
         { 
             return nom; 
         }
+        public int getIdService()
+        { 
+            return idService; 
+        }   
 
     }
 }

@@ -49,7 +49,7 @@ namespace MediaTek86.View
 
         private void BtnEnregistrerPersonnel_Click(object sender, EventArgs e)
         {
-            if(personnel == null) //Ajout d'un nouveau personnel
+            if (personnel == null) //Ajout d'un nouveau personnel
             {
                 if (TbxPrenomPersonnel.Text.Length > 0 && TbxNomPersonnel.Text.Length > 0 && TbxTelPersonnel.Text.Length > 0 && TbxMailPersonnel.Text.Length > 0 && CbxServicePersonnel.SelectedIndex != -1)
                 {
@@ -70,10 +70,32 @@ namespace MediaTek86.View
             }
             else //Modification d'un personnel existant
             {
-
+                if (TbxPrenomPersonnel.Text.Length > 0 && TbxNomPersonnel.Text.Length > 0 && TbxTelPersonnel.Text.Length > 0 && TbxMailPersonnel.Text.Length > 0)
+                {
+                    String nom = TbxNomPersonnel.Text;
+                    String prenom = TbxPrenomPersonnel.Text;
+                    String tel = TbxTelPersonnel.Text;
+                    String mail = TbxMailPersonnel.Text;
+                    int idService = -1;
+                    if (CbxServicePersonnel.SelectedIndex != -1)
+                    {
+                        idService = CbxServicePersonnel.SelectedIndex + 1;
+                    }
+                    else
+                    {
+                        idService = personnel.getService().getIdService();
+                    }
+                    controller.updatePersonnel(personnel.getIdPersonnel(), nom, prenom, tel, mail, idService);
+                    FrmAdministration frmAdministration = new FrmAdministration();
+                    this.Close();
+                    frmAdministration.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Erreur, vous devez saisir toutes les informations du formulaire pour modifier ce personnel.");
+                }
             }
         }
-
         private void BtnRetour_Click(object sender, EventArgs e)
         {
             FrmAdministration frmAdministration = new FrmAdministration();
