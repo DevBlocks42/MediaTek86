@@ -26,7 +26,6 @@ namespace MediaTek86.View
                 this.Text = "Administration - Ajout d'un personnel";
                 LblTitreAjoutModif.Text = "Ajout de personnel";
                 controller = new FrmAjoutModifPersonnelController(null);
-                
             }
             else
             {
@@ -85,10 +84,14 @@ namespace MediaTek86.View
                     {
                         idService = personnel.getService().getIdService();
                     }
-                    controller.updatePersonnel(personnel.getIdPersonnel(), nom, prenom, tel, mail, idService);
-                    FrmAdministration frmAdministration = new FrmAdministration();
-                    this.Close();
-                    frmAdministration.Show();
+                    DialogResult r = MessageBox.Show("Êtes-vous sur de vouloir modifier les informations de ce personnel ? Cette action est irreversible.", null, MessageBoxButtons.YesNo);
+                    if (r == DialogResult.Yes)
+                    {
+                        controller.updatePersonnel(personnel.getIdPersonnel(), nom, prenom, tel, mail, idService);
+                        FrmAdministration frmAdministration = new FrmAdministration();
+                        this.Close();
+                        frmAdministration.Show();
+                    }
                 }
                 else
                 {

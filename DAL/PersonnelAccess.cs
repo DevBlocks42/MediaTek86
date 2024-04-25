@@ -164,6 +164,23 @@ namespace MediaTek86.DAL
                 Environment.Exit(3306);
             }
         }
+        public void supprimerPersonnel(int idPersonnel)
+        {
+            String req = "DELETE FROM personnel WHERE idpersonnel=@idpersonnel";
+            Dictionary<string, object> parameters = new Dictionary<string, object>()
+            {
+                {"@idpersonnel", idPersonnel}
+            };
+            try
+            {
+                access.bddManager.ReqUpdate(req, parameters);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Environment.Exit(3306);
+            }
+        }
         public List<String> getNomServices()
         {
             List<String> noms = new List<String>();

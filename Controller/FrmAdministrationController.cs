@@ -29,6 +29,10 @@ namespace MediaTek86.Controller
         {
             return personnelAccess.getLesPersonnels();  
         }
+        public void supprimerPersonnel(int idPersonnel)
+        {
+            personnelAccess.supprimerPersonnel(idPersonnel);
+        }
 
     }
 }

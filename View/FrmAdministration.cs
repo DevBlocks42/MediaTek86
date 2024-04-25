@@ -59,7 +59,17 @@ namespace MediaTek86.View
         {
             if(LbxPersonnel.SelectedIndex != -1)
             {
-
+                
+                DialogResult r = MessageBox.Show("Êtes-vous sur de vouloir supprimmer ce personnel ? Cette action est irreversible.", null, MessageBoxButtons.YesNo);
+                if (r == DialogResult.Yes) 
+                {
+                    List<Personnel> lesPersonnels = controller.getLesPersonnels();
+                    Personnel p = lesPersonnels[LbxPersonnel.SelectedIndex];
+                    controller.supprimerPersonnel(p.getIdPersonnel());
+                    this.Close();
+                    FrmAdministration frmAdministration = new FrmAdministration();
+                    frmAdministration.Show();
+                }
             }
             else
             {
