@@ -1,10 +1,5 @@
 ﻿using MediaTek86.DAL;
 using MediaTek86.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MediaTek86.Controller
 {
@@ -24,15 +19,18 @@ namespace MediaTek86.Controller
         /// <summary>
         /// Récupère la liste des personnels actuellement présents dans la base de données.
         /// </summary>
-        /// <returns>List<Personnel></returns>
+        /// <returns>List de Personnel></returns>
         public List<Personnel> getLesPersonnels()
         {
             return personnelAccess.getLesPersonnels();  
         }
+        /// <summary>
+        /// Supprime un personnel
+        /// </summary>
+        /// <param name="idPersonnel"></param>
         public void supprimerPersonnel(int idPersonnel)
         {
             personnelAccess.supprimerPersonnel(idPersonnel);
         }
-
     }
 }

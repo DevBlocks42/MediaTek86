@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTek86.Model.Service
+  commentId: T:MediaTek86.Model.Service
+  id: Service
+  parent: MediaTek86.Model
+  children:
+  - MediaTek86.Model.Service.#ctor(System.Int32,System.String)
+  - MediaTek86.Model.Service.getIdService
+  - MediaTek86.Model.Service.getNom
+  langs:
+  - csharp
+  - vb
+  name: Service
+  nameWithType: Service
+  fullName: MediaTek86.Model.Service
+  type: Class
+  source:
+    remote:
+      path: Model/Service.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: Service
+    path: ../Model/Service.cs
+    startLine: 11
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Model
+  summary: Classe métier interne pour mémoriser les informations des services
+  example: []
+  syntax:
+    content: public class Service
+    content.vb: Public Class Service
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MediaTek86.Model.Service.#ctor(System.Int32,System.String)
+  commentId: M:MediaTek86.Model.Service.#ctor(System.Int32,System.String)
+  id: '#ctor(System.Int32,System.String)'
+  parent: MediaTek86.Model.Service
+  langs:
+  - csharp
+  - vb
+  name: Service(int, string)
+  nameWithType: Service.Service(int, string)
+  fullName: MediaTek86.Model.Service.Service(int, string)
+  type: Constructor
+  source:
+    remote:
+      path: Model/Service.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: .ctor
+    path: ../Model/Service.cs
+    startLine: 20
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Model
+  summary: Valorise les propriétés
+  example: []
+  syntax:
+    content: public Service(int idService, string nom)
+    parameters:
+    - id: idService
+      type: System.Int32
+      description: ''
+    - id: nom
+      type: System.String
+      description: ''
+    content.vb: Public Sub New(idService As Integer, nom As String)
+  overload: MediaTek86.Model.Service.#ctor*
+  nameWithType.vb: Service.New(Integer, String)
+  fullName.vb: MediaTek86.Model.Service.New(Integer, String)
+  name.vb: New(Integer, String)
+- uid: MediaTek86.Model.Service.getNom
+  commentId: M:MediaTek86.Model.Service.getNom
+  id: getNom
+  parent: MediaTek86.Model.Service
+  langs:
+  - csharp
+  - vb
+  name: getNom()
+  nameWithType: Service.getNom()
+  fullName: MediaTek86.Model.Service.getNom()
+  type: Method
+  source:
+    remote:
+      path: Model/Service.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: getNom
+    path: ../Model/Service.cs
+    startLine: 29
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Model
+  summary: Getter sur nom
+  example: []
+  syntax:
+    content: public string getNom()
+    return:
+      type: System.String
+      description: String nom
+    content.vb: Public Function getNom() As String
+  overload: MediaTek86.Model.Service.getNom*
+- uid: MediaTek86.Model.Service.getIdService
+  commentId: M:MediaTek86.Model.Service.getIdService
+  id: getIdService
+  parent: MediaTek86.Model.Service
+  langs:
+  - csharp
+  - vb
+  name: getIdService()
+  nameWithType: Service.getIdService()
+  fullName: MediaTek86.Model.Service.getIdService()
+  type: Method
+  source:
+    remote:
+      path: Model/Service.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: getIdService
+    path: ../Model/Service.cs
+    startLine: 37
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Model
+  summary: Getter sur idService
+  example: []
+  syntax:
+    content: public int getIdService()
+    return:
+      type: System.Int32
+      description: int idService
+    content.vb: Public Function getIdService() As Integer
+  overload: MediaTek86.Model.Service.getIdService*
+references:
+- uid: MediaTek86.Model
+  commentId: N:MediaTek86.Model
+  href: MediaTek86.html
+  name: MediaTek86.Model
+  nameWithType: MediaTek86.Model
+  fullName: MediaTek86.Model
+  spec.csharp:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.Model
+    name: Model
+    href: MediaTek86.Model.html
+  spec.vb:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.Model
+    name: Model
+    href: MediaTek86.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTek86.Model.Service.#ctor*
+  commentId: Overload:MediaTek86.Model.Service.#ctor
+  href: MediaTek86.Model.Service.html#MediaTek86_Model_Service__ctor_System_Int32_System_String_
+  name: Service
+  nameWithType: Service.Service
+  fullName: MediaTek86.Model.Service.Service
+  nameWithType.vb: Service.New
+  fullName.vb: MediaTek86.Model.Service.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MediaTek86.Model.Service.getNom*
+  commentId: Overload:MediaTek86.Model.Service.getNom
+  href: MediaTek86.Model.Service.html#MediaTek86_Model_Service_getNom
+  name: getNom
+  nameWithType: Service.getNom
+  fullName: MediaTek86.Model.Service.getNom
+- uid: MediaTek86.Model.Service.getIdService*
+  commentId: Overload:MediaTek86.Model.Service.getIdService
+  href: MediaTek86.Model.Service.html#MediaTek86_Model_Service_getIdService
+  name: getIdService
+  nameWithType: Service.getIdService
+  fullName: MediaTek86.Model.Service.getIdService

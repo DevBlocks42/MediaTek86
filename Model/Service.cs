@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MediaTek86.Model
+﻿namespace MediaTek86.Model
 {
     /// <summary>
     /// Classe métier interne pour mémoriser les informations des services
@@ -23,14 +17,21 @@ namespace MediaTek86.Model
             this.idService = idService;
             this.nom = nom;
         }
+        /// <summary>
+        /// Getter sur nom
+        /// </summary>
+        /// <returns>String nom</returns>
         public String getNom()
         { 
             return nom; 
         }
+        /// <summary>
+        /// Getter sur idService
+        /// </summary>
+        /// <returns>int idService</returns>
         public int getIdService()
         { 
             return idService; 
         }   
-
     }
 }

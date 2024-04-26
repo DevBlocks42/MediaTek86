@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTek86.Model
+  commentId: N:MediaTek86.Model
+  id: MediaTek86.Model
+  children:
+  - MediaTek86.Model.Absence
+  - MediaTek86.Model.Motif
+  - MediaTek86.Model.Personnel
+  - MediaTek86.Model.Service
+  langs:
+  - csharp
+  - vb
+  name: MediaTek86.Model
+  nameWithType: MediaTek86.Model
+  fullName: MediaTek86.Model
+  type: Namespace
+  assemblies:
+  - MediaTek86
+references:
+- uid: MediaTek86.Model.Absence
+  commentId: T:MediaTek86.Model.Absence
+  parent: MediaTek86.Model
+  href: MediaTek86.Model.Absence.html
+  name: Absence
+  nameWithType: Absence
+  fullName: MediaTek86.Model.Absence
+- uid: MediaTek86.Model.Motif
+  commentId: T:MediaTek86.Model.Motif
+  parent: MediaTek86.Model
+  href: MediaTek86.Model.Motif.html
+  name: Motif
+  nameWithType: Motif
+  fullName: MediaTek86.Model.Motif
+- uid: MediaTek86.Model.Personnel
+  commentId: T:MediaTek86.Model.Personnel
+  parent: MediaTek86.Model
+  href: MediaTek86.Model.Personnel.html
+  name: Personnel
+  nameWithType: Personnel
+  fullName: MediaTek86.Model.Personnel
+- uid: MediaTek86.Model.Service
+  commentId: T:MediaTek86.Model.Service
+  parent: MediaTek86.Model
+  href: MediaTek86.Model.Service.html
+  name: Service
+  nameWithType: Service
+  fullName: MediaTek86.Model.Service
+- uid: MediaTek86.Model
+  commentId: N:MediaTek86.Model
+  href: MediaTek86.html
+  name: MediaTek86.Model
+  nameWithType: MediaTek86.Model
+  fullName: MediaTek86.Model
+  spec.csharp:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.Model
+    name: Model
+    href: MediaTek86.Model.html
+  spec.vb:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.Model
+    name: Model
+    href: MediaTek86.Model.html

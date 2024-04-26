@@ -1,0 +1,320 @@
+{
+  "source_base_path": "C:/Users/admin/source/repos/MediaTek86/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.BddManager.BddManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.BddManager.BddManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.BddManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.BddManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Controller.FrmAbsencePersonnelController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Controller.FrmAbsencePersonnelController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Controller.FrmAdministrationController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Controller.FrmAdministrationController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Controller.FrmAjoutModifPersonnelController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Controller.FrmAjoutModifPersonnelController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Controller.FrmConnexionController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Controller.FrmConnexionController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Controller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Controller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.DAL.Access.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.DAL.Access.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.DAL.PersonnelAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.DAL.PersonnelAccess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.DAL.ResponsableAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.DAL.ResponsableAccess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.DAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.DAL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.FrmConnexion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.FrmConnexion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Model.Absence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Model.Absence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Model.Motif.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Model.Motif.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Model.Personnel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Model.Personnel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Model.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Model.Service.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.View.FrmAbsencePersonnel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.View.FrmAbsencePersonnel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.View.FrmAdministration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.View.FrmAdministration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.View.FrmAjoutModifAbsence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.View.FrmAjoutModifAbsence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.View.FrmAjoutModifPersonnel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.View.FrmAjoutModifPersonnel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.View.FrmConnexion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.View.FrmConnexion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.View.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,11 +1,4 @@
-﻿using Microsoft.VisualBasic.Logging;
-using MediaTek86.BddManager;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Configuration;
+﻿using System.Configuration;
 
 namespace MediaTek86.DAL
 {
@@ -26,7 +19,9 @@ namespace MediaTek86.DAL
         /// Getter sur l'objet d'accès aux données
         /// </summary>
         public BddManager.BddManager bddManager { get; }
-
+        /// <summary>
+        /// Valorisation de la propriété bddManager
+        /// </summary>
         private Access() 
         {
             String connectionString = GetConnectionStringByName(connectionName);

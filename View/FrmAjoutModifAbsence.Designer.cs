@@ -108,6 +108,7 @@
             BtnRetour.TabIndex = 13;
             BtnRetour.Text = "Annuler";
             BtnRetour.UseVisualStyleBackColor = true;
+            BtnRetour.Click += BtnRetour_Click;
             // 
             // BtnEnregistrerPersonnel
             // 
@@ -117,6 +118,7 @@
             BtnEnregistrerPersonnel.TabIndex = 12;
             BtnEnregistrerPersonnel.Text = "Enregistrer";
             BtnEnregistrerPersonnel.UseVisualStyleBackColor = true;
+            BtnEnregistrerPersonnel.Click += BtnEnregistrerPersonnel_Click;
             // 
             // FrmAjoutModifAbsence
             // 

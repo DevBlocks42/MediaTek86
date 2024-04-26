@@ -1,17 +1,11 @@
 ﻿using MediaTek86.Controller;
 using MediaTek86.Model;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace MediaTek86.View
 {
+    /// <summary>
+    /// Vue de l'absence des personnels
+    /// </summary>
     public partial class FrmAbsencePersonnel : Form
     {
         private Personnel personnel;
@@ -28,16 +22,19 @@ namespace MediaTek86.View
             LblAbsencePersonnel.Text = "Personnel : " + personnel.getPrenom() + " " + personnel.getNom();
             controller = new FrmAbsencePersonnelController();
         }
-
         private void BtnAddAbsence_Click(object sender, EventArgs e)
         {
-
+            FrmAjoutModifAbsence frmAjoutModifAbsence = new FrmAjoutModifAbsence(this.personnel, null);
+            this.Close();
+            frmAjoutModifAbsence.Show();
         }
         private void BtnEditAbsence_Click(object sender, EventArgs e)
         {
             if(LbxAbsencesPersonnel.SelectedIndex != -1)
             {
-
+                FrmAjoutModifAbsence frmAjoutModifAbsence = new FrmAjoutModifAbsence(personnel, (Absence)LbxAbsencesPersonnel.SelectedItem);
+                this.Close();
+                frmAjoutModifAbsence.Show();
             }
             else
             {

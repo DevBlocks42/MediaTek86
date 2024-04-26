@@ -1,4 +1,4 @@
-﻿namespace MediaTek86
+﻿namespace MediaTek86.View
 {
     partial class FrmConnexion
     {

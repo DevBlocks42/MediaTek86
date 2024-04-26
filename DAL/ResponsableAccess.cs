@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MediaTek86.DAL
+﻿namespace MediaTek86.DAL
 {
     /// <summary>
     /// Classe d'accès aux données du responsable 
@@ -15,6 +9,9 @@ namespace MediaTek86.DAL
         /// Instance unique de l'accès aux données
         /// </summary>
         private readonly Access access = null;
+        /// <summary>
+        /// Valorisation de access
+        /// </summary>
         public ResponsableAccess()
         {
             access = Access.GetInstance(); 

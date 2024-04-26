@@ -1,0 +1,52 @@
+### YamlMime:TableOfContent
+items:
+- uid: MediaTek86.BddManager
+  name: MediaTek86.BddManager
+  items:
+  - uid: MediaTek86.BddManager.BddManager
+    name: BddManager
+- uid: MediaTek86.Controller
+  name: MediaTek86.Controller
+  items:
+  - uid: MediaTek86.Controller.FrmAbsencePersonnelController
+    name: FrmAbsencePersonnelController
+  - uid: MediaTek86.Controller.FrmAdministrationController
+    name: FrmAdministrationController
+  - uid: MediaTek86.Controller.FrmAjoutModifPersonnelController
+    name: FrmAjoutModifPersonnelController
+  - uid: MediaTek86.Controller.FrmConnexionController
+    name: FrmConnexionController
+- uid: MediaTek86.DAL
+  name: MediaTek86.DAL
+  items:
+  - uid: MediaTek86.DAL.Access
+    name: Access
+  - uid: MediaTek86.DAL.PersonnelAccess
+    name: PersonnelAccess
+  - uid: MediaTek86.DAL.ResponsableAccess
+    name: ResponsableAccess
+- uid: MediaTek86.Model
+  name: MediaTek86.Model
+  items:
+  - uid: MediaTek86.Model.Absence
+    name: Absence
+  - uid: MediaTek86.Model.Motif
+    name: Motif
+  - uid: MediaTek86.Model.Personnel
+    name: Personnel
+  - uid: MediaTek86.Model.Service
+    name: Service
+- uid: MediaTek86.View
+  name: MediaTek86.View
+  items:
+  - uid: MediaTek86.View.FrmAbsencePersonnel
+    name: FrmAbsencePersonnel
+  - uid: MediaTek86.View.FrmAdministration
+    name: FrmAdministration
+  - uid: MediaTek86.View.FrmAjoutModifAbsence
+    name: FrmAjoutModifAbsence
+  - uid: MediaTek86.View.FrmAjoutModifPersonnel
+    name: FrmAjoutModifPersonnel
+  - uid: MediaTek86.View.FrmConnexion
+    name: FrmConnexion
+memberLayout: SamePage

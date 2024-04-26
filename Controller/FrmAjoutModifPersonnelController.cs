@@ -1,10 +1,5 @@
 ﻿using MediaTek86.DAL;
 using MediaTek86.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MediaTek86.Controller
 {
@@ -23,14 +18,35 @@ namespace MediaTek86.Controller
             personnelAccess = new PersonnelAccess();  
             this.personnel = personnel; 
         }
+        /// <summary>
+        /// Ajoute un personnel
+        /// </summary>
+        /// <param name="nom"></param>
+        /// <param name="prenom"></param>
+        /// <param name="tel"></param>
+        /// <param name="mail"></param>
+        /// <param name="idService"></param>
         public void ajouterPersonnel(String nom, String prenom, String tel, String mail, int idService)
         {
             personnelAccess.ajouterPersonnel(nom, prenom, tel, mail, idService);
         }
+        /// <summary>
+        /// Met à jour les informations d'un personnel
+        /// </summary>
+        /// <param name="idPersonnel"></param>
+        /// <param name="nom"></param>
+        /// <param name="prenom"></param>
+        /// <param name="tel"></param>
+        /// <param name="mail"></param>
+        /// <param name="idService"></param>
         public void updatePersonnel(int idPersonnel, String nom, String prenom, String tel, String mail, int idService)
         {
             personnelAccess.updatePersonnel(idPersonnel, nom, prenom, tel, mail, idService);
         }
+        /// <summary>
+        /// Récupère la liste des nom de services
+        /// </summary>
+        /// <returns>List de String</returns>
         public List<String> getNomServices()
         {
             return personnelAccess.getNomServices();

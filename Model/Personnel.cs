@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MediaTek86.Model
+﻿namespace MediaTek86.Model
 {
     /// <summary>
     /// Classe métier interne pour mémoriser les informations d'un personnel
@@ -38,38 +32,74 @@ namespace MediaTek86.Model
             this.service = service;
             this.absences = absences;   
         }
+        /// <summary>
+        /// Getter sur nom
+        /// </summary>
+        /// <returns>String nom</returns>
         public String getNom()
         { 
             return nom; 
         } 
+        /// <summary>
+        /// Getter sur prenom
+        /// </summary>
+        /// <returns>String prenom</returns>
         public String getPrenom()
         {
             return prenom;
         }
+        /// <summary>
+        /// Getter sur tel
+        /// </summary>
+        /// <returns>String tel</returns>
         public String getTel()
         {
             return tel;
         }
+        /// <summary>
+        /// Getter sur mail
+        /// </summary>
+        /// <returns>String mail</returns>
         public String getMail()
         {
             return mail;
         }
+        /// <summary>
+        /// Getter sur service
+        /// </summary>
+        /// <returns>Service service</returns>
         public Service getService()
         {
             return service;
         }
+        /// <summary>
+        /// Getter sur idPersonnel
+        /// </summary>
+        /// <returns>int idPersonnel</returns>
         public int getIdPersonnel()
         { 
             return idPersonnel; 
         }
+        /// <summary>
+        /// Getter sur absences
+        /// </summary>
+        /// <returns>List</returns>
         public List<Absence> getAbsences()
         {
             return absences;
         }
+        /// <summary>
+        /// Setter sur absences
+        /// </summary>
+        /// <param name="absences"></param>
         public void setAbsences(List<Absence> absences)
         {
             this.absences = absences;
         }
+        /// <summary>
+        /// Redéfinition de l'affichage par défaut de l'objet Personnel
+        /// </summary>
+        /// <returns>string représentant l'objet Personnel</returns>
         public override string ToString()
         {
             return nom + " " + prenom + "; Service : " + service.getNom();

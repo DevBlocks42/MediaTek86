@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 
 namespace MediaTek86.BddManager
 {
@@ -17,7 +12,6 @@ namespace MediaTek86.BddManager
         /// objet de connexion à la BDD à partir d'une chaîne de connexion
         /// </summary>
         private readonly MySqlConnection connection;
-
         /// <summary>
         /// Constructeur pour créer la connexion à la BDD et l'ouvrir
         /// </summary>
@@ -27,7 +21,6 @@ namespace MediaTek86.BddManager
             connection = new MySqlConnection(stringConnect);
             connection.Open();
         }
-
         /// <summary>
         /// Création d'une seule instance de la classe
         /// </summary>
@@ -41,7 +34,6 @@ namespace MediaTek86.BddManager
             }
             return instance;
         }
-
         /// <summary>
         /// Exécution d'une requête de type LCT (begin transaction...)
         /// </summary>
@@ -51,7 +43,6 @@ namespace MediaTek86.BddManager
             MySqlCommand command = new MySqlCommand(stringQuery, connection);
             command.ExecuteNonQuery();
         }
-
         /// <summary>
         /// Exécution d'une requête de type LMD (insert, update, delete)
         /// </summary>
@@ -70,7 +61,6 @@ namespace MediaTek86.BddManager
             command.Prepare();
             command.ExecuteNonQuery();
         }
-
         /// <summary>
         /// Execution d'une requête de type LID (select)
         /// </summary>
@@ -100,6 +90,5 @@ namespace MediaTek86.BddManager
             reader.Close();
             return records;
         }
-
     }
 }

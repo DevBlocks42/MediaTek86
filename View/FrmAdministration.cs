@@ -1,18 +1,11 @@
 ﻿using MediaTek86.Controller;
-using MediaTek86.DAL;
 using MediaTek86.Model;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace MediaTek86.View
 {
+    /// <summary>
+    /// Vue de l'administration des personnels
+    /// </summary>
     public partial class FrmAdministration : Form
     {
         private readonly FrmAdministrationController controller;

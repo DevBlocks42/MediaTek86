@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTek86.DAL
+  commentId: N:MediaTek86.DAL
+  id: MediaTek86.DAL
+  children:
+  - MediaTek86.DAL.Access
+  - MediaTek86.DAL.PersonnelAccess
+  - MediaTek86.DAL.ResponsableAccess
+  langs:
+  - csharp
+  - vb
+  name: MediaTek86.DAL
+  nameWithType: MediaTek86.DAL
+  fullName: MediaTek86.DAL
+  type: Namespace
+  assemblies:
+  - MediaTek86
+references:
+- uid: MediaTek86.DAL.Access
+  commentId: T:MediaTek86.DAL.Access
+  parent: MediaTek86.DAL
+  href: MediaTek86.DAL.Access.html
+  name: Access
+  nameWithType: Access
+  fullName: MediaTek86.DAL.Access
+- uid: MediaTek86.DAL.PersonnelAccess
+  commentId: T:MediaTek86.DAL.PersonnelAccess
+  href: MediaTek86.DAL.PersonnelAccess.html
+  name: PersonnelAccess
+  nameWithType: PersonnelAccess
+  fullName: MediaTek86.DAL.PersonnelAccess
+- uid: MediaTek86.DAL.ResponsableAccess
+  commentId: T:MediaTek86.DAL.ResponsableAccess
+  href: MediaTek86.DAL.ResponsableAccess.html
+  name: ResponsableAccess
+  nameWithType: ResponsableAccess
+  fullName: MediaTek86.DAL.ResponsableAccess
+- uid: MediaTek86.DAL
+  commentId: N:MediaTek86.DAL
+  href: MediaTek86.html
+  name: MediaTek86.DAL
+  nameWithType: MediaTek86.DAL
+  fullName: MediaTek86.DAL
+  spec.csharp:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.DAL
+    name: DAL
+    href: MediaTek86.DAL.html
+  spec.vb:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.DAL
+    name: DAL
+    href: MediaTek86.DAL.html

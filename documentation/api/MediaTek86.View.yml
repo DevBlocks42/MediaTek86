@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTek86.View
+  commentId: N:MediaTek86.View
+  id: MediaTek86.View
+  children:
+  - MediaTek86.View.FrmAbsencePersonnel
+  - MediaTek86.View.FrmAdministration
+  - MediaTek86.View.FrmAjoutModifAbsence
+  - MediaTek86.View.FrmAjoutModifPersonnel
+  - MediaTek86.View.FrmConnexion
+  langs:
+  - csharp
+  - vb
+  name: MediaTek86.View
+  nameWithType: MediaTek86.View
+  fullName: MediaTek86.View
+  type: Namespace
+  assemblies:
+  - MediaTek86
+references:
+- uid: MediaTek86.View.FrmAbsencePersonnel
+  commentId: T:MediaTek86.View.FrmAbsencePersonnel
+  href: MediaTek86.View.FrmAbsencePersonnel.html
+  name: FrmAbsencePersonnel
+  nameWithType: FrmAbsencePersonnel
+  fullName: MediaTek86.View.FrmAbsencePersonnel
+- uid: MediaTek86.View.FrmAdministration
+  commentId: T:MediaTek86.View.FrmAdministration
+  href: MediaTek86.View.FrmAdministration.html
+  name: FrmAdministration
+  nameWithType: FrmAdministration
+  fullName: MediaTek86.View.FrmAdministration
+- uid: MediaTek86.View.FrmAjoutModifAbsence
+  commentId: T:MediaTek86.View.FrmAjoutModifAbsence
+  href: MediaTek86.View.FrmAjoutModifAbsence.html
+  name: FrmAjoutModifAbsence
+  nameWithType: FrmAjoutModifAbsence
+  fullName: MediaTek86.View.FrmAjoutModifAbsence
+- uid: MediaTek86.View.FrmAjoutModifPersonnel
+  commentId: T:MediaTek86.View.FrmAjoutModifPersonnel
+  href: MediaTek86.View.FrmAjoutModifPersonnel.html
+  name: FrmAjoutModifPersonnel
+  nameWithType: FrmAjoutModifPersonnel
+  fullName: MediaTek86.View.FrmAjoutModifPersonnel
+- uid: MediaTek86.View.FrmConnexion
+  commentId: T:MediaTek86.View.FrmConnexion
+  href: MediaTek86.View.FrmConnexion.html
+  name: FrmConnexion
+  nameWithType: FrmConnexion
+  fullName: MediaTek86.View.FrmConnexion

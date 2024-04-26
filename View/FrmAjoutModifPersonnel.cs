@@ -1,22 +1,20 @@
 ﻿using MediaTek86.Controller;
 using MediaTek86.Model;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace MediaTek86.View
 {
+    /// <summary>
+    /// Vue de l'ajout et la modification des informations d'un personnel.
+    /// </summary>
     public partial class FrmAjoutModifPersonnel : Form
     {
         private Personnel personnel = null;
         private FrmAjoutModifPersonnelController controller;
         private List<String> nomServices = new List<String>();
+        /// <summary>
+        /// Valorisation de la propriété privée et initialisation du contenu de certains éléments graphiques
+        /// </summary>
+        /// <param name="personnel"></param>
         public FrmAjoutModifPersonnel(Personnel personnel)
         {
             InitializeComponent();
@@ -45,7 +43,6 @@ namespace MediaTek86.View
                 CbxServicePersonnel.Items.Add(nom);
             }
         }
-
         private void BtnEnregistrerPersonnel_Click(object sender, EventArgs e)
         {
             if (personnel == null) //Ajout d'un nouveau personnel

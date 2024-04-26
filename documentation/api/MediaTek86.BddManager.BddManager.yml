@@ -1,0 +1,681 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTek86.BddManager.BddManager
+  commentId: T:MediaTek86.BddManager.BddManager
+  id: BddManager
+  parent: MediaTek86.BddManager
+  children:
+  - MediaTek86.BddManager.BddManager.GetInstance(System.String)
+  - MediaTek86.BddManager.BddManager.ReqControle(System.String)
+  - MediaTek86.BddManager.BddManager.ReqSelect(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  - MediaTek86.BddManager.BddManager.ReqUpdate(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  langs:
+  - csharp
+  - vb
+  name: BddManager
+  nameWithType: BddManager
+  fullName: MediaTek86.BddManager.BddManager
+  type: Class
+  source:
+    remote:
+      path: BddManager/BddManager.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: BddManager
+    path: ../BddManager/BddManager.cs
+    startLine: 4
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.BddManager
+  syntax:
+    content: public class BddManager
+    content.vb: Public Class BddManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MediaTek86.BddManager.BddManager.GetInstance(System.String)
+  commentId: M:MediaTek86.BddManager.BddManager.GetInstance(System.String)
+  id: GetInstance(System.String)
+  parent: MediaTek86.BddManager.BddManager
+  langs:
+  - csharp
+  - vb
+  name: GetInstance(string)
+  nameWithType: BddManager.GetInstance(string)
+  fullName: MediaTek86.BddManager.BddManager.GetInstance(string)
+  type: Method
+  source:
+    remote:
+      path: BddManager/BddManager.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: GetInstance
+    path: ../BddManager/BddManager.cs
+    startLine: 30
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.BddManager
+  summary: Création d'une seule instance de la classe
+  example: []
+  syntax:
+    content: public static BddManager GetInstance(string stringConnect)
+    parameters:
+    - id: stringConnect
+      type: System.String
+      description: chaine de connexion
+    return:
+      type: MediaTek86.BddManager.BddManager
+      description: instance unique de la classe
+    content.vb: Public Shared Function GetInstance(stringConnect As String) As BddManager
+  overload: MediaTek86.BddManager.BddManager.GetInstance*
+  nameWithType.vb: BddManager.GetInstance(String)
+  fullName.vb: MediaTek86.BddManager.BddManager.GetInstance(String)
+  name.vb: GetInstance(String)
+- uid: MediaTek86.BddManager.BddManager.ReqControle(System.String)
+  commentId: M:MediaTek86.BddManager.BddManager.ReqControle(System.String)
+  id: ReqControle(System.String)
+  parent: MediaTek86.BddManager.BddManager
+  langs:
+  - csharp
+  - vb
+  name: ReqControle(string)
+  nameWithType: BddManager.ReqControle(string)
+  fullName: MediaTek86.BddManager.BddManager.ReqControle(string)
+  type: Method
+  source:
+    remote:
+      path: BddManager/BddManager.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: ReqControle
+    path: ../BddManager/BddManager.cs
+    startLine: 43
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.BddManager
+  summary: Exécution d'une requête de type LCT (begin transaction...)
+  example: []
+  syntax:
+    content: public void ReqControle(string stringQuery)
+    parameters:
+    - id: stringQuery
+      type: System.String
+      description: requête
+    content.vb: Public Sub ReqControle(stringQuery As String)
+  overload: MediaTek86.BddManager.BddManager.ReqControle*
+  nameWithType.vb: BddManager.ReqControle(String)
+  fullName.vb: MediaTek86.BddManager.BddManager.ReqControle(String)
+  name.vb: ReqControle(String)
+- uid: MediaTek86.BddManager.BddManager.ReqUpdate(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:MediaTek86.BddManager.BddManager.ReqUpdate(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: ReqUpdate(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  parent: MediaTek86.BddManager.BddManager
+  langs:
+  - csharp
+  - vb
+  name: ReqUpdate(string, Dictionary<string, object>)
+  nameWithType: BddManager.ReqUpdate(string, Dictionary<string, object>)
+  fullName: MediaTek86.BddManager.BddManager.ReqUpdate(string, System.Collections.Generic.Dictionary<string, object>)
+  type: Method
+  source:
+    remote:
+      path: BddManager/BddManager.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: ReqUpdate
+    path: ../BddManager/BddManager.cs
+    startLine: 54
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.BddManager
+  summary: Exécution d'une requête de type LMD (insert, update, delete)
+  example: []
+  syntax:
+    content: public void ReqUpdate(string stringQuery, Dictionary<string, object> parameters = null)
+    parameters:
+    - id: stringQuery
+      type: System.String
+      description: requête
+    - id: parameters
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      description: dictionnire contenant les parametres
+    content.vb: Public Sub ReqUpdate(stringQuery As String, parameters As Dictionary(Of String, Object) = Nothing)
+  overload: MediaTek86.BddManager.BddManager.ReqUpdate*
+  nameWithType.vb: BddManager.ReqUpdate(String, Dictionary(Of String, Object))
+  fullName.vb: MediaTek86.BddManager.BddManager.ReqUpdate(String, System.Collections.Generic.Dictionary(Of String, Object))
+  name.vb: ReqUpdate(String, Dictionary(Of String, Object))
+- uid: MediaTek86.BddManager.BddManager.ReqSelect(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:MediaTek86.BddManager.BddManager.ReqSelect(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: ReqSelect(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})
+  parent: MediaTek86.BddManager.BddManager
+  langs:
+  - csharp
+  - vb
+  name: ReqSelect(string, Dictionary<string, object>)
+  nameWithType: BddManager.ReqSelect(string, Dictionary<string, object>)
+  fullName: MediaTek86.BddManager.BddManager.ReqSelect(string, System.Collections.Generic.Dictionary<string, object>)
+  type: Method
+  source:
+    remote:
+      path: BddManager/BddManager.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: ReqSelect
+    path: ../BddManager/BddManager.cs
+    startLine: 74
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.BddManager
+  summary: Execution d'une requête de type LID (select)
+  example: []
+  syntax:
+    content: public List<object[]> ReqSelect(string stringQuery, Dictionary<string, object> parameters = null)
+    parameters:
+    - id: stringQuery
+      type: System.String
+      description: requête
+    - id: parameters
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      description: dictoinnaire contenant les parametres
+    return:
+      type: System.Collections.Generic.List{System.Object[]}
+      description: liste de tableaux d'objets contenant les valeurs des colonnes
+    content.vb: Public Function ReqSelect(stringQuery As String, parameters As Dictionary(Of String, Object) = Nothing) As List(Of Object())
+  overload: MediaTek86.BddManager.BddManager.ReqSelect*
+  nameWithType.vb: BddManager.ReqSelect(String, Dictionary(Of String, Object))
+  fullName.vb: MediaTek86.BddManager.BddManager.ReqSelect(String, System.Collections.Generic.Dictionary(Of String, Object))
+  name.vb: ReqSelect(String, Dictionary(Of String, Object))
+references:
+- uid: MediaTek86.BddManager
+  commentId: N:MediaTek86.BddManager
+  href: MediaTek86.html
+  name: MediaTek86.BddManager
+  nameWithType: MediaTek86.BddManager
+  fullName: MediaTek86.BddManager
+  spec.csharp:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.BddManager
+    name: BddManager
+    href: MediaTek86.BddManager.html
+  spec.vb:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.BddManager
+    name: BddManager
+    href: MediaTek86.BddManager.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTek86.BddManager.BddManager.GetInstance*
+  commentId: Overload:MediaTek86.BddManager.BddManager.GetInstance
+  href: MediaTek86.BddManager.BddManager.html#MediaTek86_BddManager_BddManager_GetInstance_System_String_
+  name: GetInstance
+  nameWithType: BddManager.GetInstance
+  fullName: MediaTek86.BddManager.BddManager.GetInstance
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MediaTek86.BddManager.BddManager
+  commentId: T:MediaTek86.BddManager.BddManager
+  parent: MediaTek86.BddManager
+  href: MediaTek86.BddManager.BddManager.html
+  name: BddManager
+  nameWithType: BddManager
+  fullName: MediaTek86.BddManager.BddManager
+- uid: MediaTek86.BddManager.BddManager.ReqControle*
+  commentId: Overload:MediaTek86.BddManager.BddManager.ReqControle
+  href: MediaTek86.BddManager.BddManager.html#MediaTek86_BddManager_BddManager_ReqControle_System_String_
+  name: ReqControle
+  nameWithType: BddManager.ReqControle
+  fullName: MediaTek86.BddManager.BddManager.ReqControle
+- uid: MediaTek86.BddManager.BddManager.ReqUpdate*
+  commentId: Overload:MediaTek86.BddManager.BddManager.ReqUpdate
+  href: MediaTek86.BddManager.BddManager.html#MediaTek86_BddManager_BddManager_ReqUpdate_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__
+  name: ReqUpdate
+  nameWithType: BddManager.ReqUpdate
+  fullName: MediaTek86.BddManager.BddManager.ReqUpdate
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: MediaTek86.BddManager.BddManager.ReqSelect*
+  commentId: Overload:MediaTek86.BddManager.BddManager.ReqSelect
+  href: MediaTek86.BddManager.BddManager.html#MediaTek86_BddManager_BddManager_ReqSelect_System_String_System_Collections_Generic_Dictionary_System_String_System_Object__
+  name: ReqSelect
+  nameWithType: BddManager.ReqSelect
+  fullName: MediaTek86.BddManager.BddManager.ReqSelect
+- uid: System.Collections.Generic.List{System.Object[]}
+  commentId: T:System.Collections.Generic.List{System.Object[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<object[]>
+  nameWithType: List<object[]>
+  fullName: System.Collections.Generic.List<object[]>
+  nameWithType.vb: List(Of Object())
+  fullName.vb: System.Collections.Generic.List(Of Object())
+  name.vb: List(Of Object())
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

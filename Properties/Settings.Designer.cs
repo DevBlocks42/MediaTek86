@@ -26,7 +26,7 @@ namespace MediaTek86.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=localhost;Database=mediatek86;Uid=dbadmin;Pwd=\'61245fee\';")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=localhost;Database=mediatek86;Uid=dbadmin;Pwd=\'\';")]
         public string connectionString {
             get {
                 return ((string)(this["connectionString"]));

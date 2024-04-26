@@ -1,11 +1,16 @@
 using MediaTek86.Controller;
-using MediaTek86.View;
 
-namespace MediaTek86
+namespace MediaTek86.View
 {
+    /// <summary>
+    /// Vue du formulaire de connexion
+    /// </summary>
     public partial class FrmConnexion : Form
     {
         private FrmConnexionController controller;
+        /// <summary>
+        /// Valorisation de la propriété privée
+        /// </summary>
         public FrmConnexion()
         {
             InitializeComponent();

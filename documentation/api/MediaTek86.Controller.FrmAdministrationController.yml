@@ -1,0 +1,530 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTek86.Controller.FrmAdministrationController
+  commentId: T:MediaTek86.Controller.FrmAdministrationController
+  id: FrmAdministrationController
+  parent: MediaTek86.Controller
+  children:
+  - MediaTek86.Controller.FrmAdministrationController.#ctor
+  - MediaTek86.Controller.FrmAdministrationController.getLesPersonnels
+  - MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: FrmAdministrationController
+  nameWithType: FrmAdministrationController
+  fullName: MediaTek86.Controller.FrmAdministrationController
+  type: Class
+  source:
+    remote:
+      path: Controller/FrmAdministrationController.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: FrmAdministrationController
+    path: ../Controller/FrmAdministrationController.cs
+    startLine: 13
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Controller
+  summary: Contrôleur de FrmAdministration
+  example: []
+  syntax:
+    content: public class FrmAdministrationController
+    content.vb: Public Class FrmAdministrationController
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MediaTek86.Controller.FrmAdministrationController.#ctor
+  commentId: M:MediaTek86.Controller.FrmAdministrationController.#ctor
+  id: '#ctor'
+  parent: MediaTek86.Controller.FrmAdministrationController
+  langs:
+  - csharp
+  - vb
+  name: FrmAdministrationController()
+  nameWithType: FrmAdministrationController.FrmAdministrationController()
+  fullName: MediaTek86.Controller.FrmAdministrationController.FrmAdministrationController()
+  type: Constructor
+  source:
+    remote:
+      path: Controller/FrmAdministrationController.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: .ctor
+    path: ../Controller/FrmAdministrationController.cs
+    startLine: 19
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Controller
+  summary: 'Controller de FrmAdministration : valorisation de la proprété privée personnelAccess'
+  example: []
+  syntax:
+    content: public FrmAdministrationController()
+    content.vb: Public Sub New()
+  overload: MediaTek86.Controller.FrmAdministrationController.#ctor*
+  nameWithType.vb: FrmAdministrationController.New()
+  fullName.vb: MediaTek86.Controller.FrmAdministrationController.New()
+  name.vb: New()
+- uid: MediaTek86.Controller.FrmAdministrationController.getLesPersonnels
+  commentId: M:MediaTek86.Controller.FrmAdministrationController.getLesPersonnels
+  id: getLesPersonnels
+  parent: MediaTek86.Controller.FrmAdministrationController
+  langs:
+  - csharp
+  - vb
+  name: getLesPersonnels()
+  nameWithType: FrmAdministrationController.getLesPersonnels()
+  fullName: MediaTek86.Controller.FrmAdministrationController.getLesPersonnels()
+  type: Method
+  source:
+    remote:
+      path: Controller/FrmAdministrationController.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: getLesPersonnels
+    path: ../Controller/FrmAdministrationController.cs
+    startLine: 27
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Controller
+  summary: Récupère la liste des personnels actuellement présents dans la base de données.
+  example: []
+  syntax:
+    content: public List<Personnel> getLesPersonnels()
+    return:
+      type: System.Collections.Generic.List{MediaTek86.Model.Personnel}
+      description: List de Personnel&gt;
+    content.vb: Public Function getLesPersonnels() As List(Of Personnel)
+  overload: MediaTek86.Controller.FrmAdministrationController.getLesPersonnels*
+- uid: MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel(System.Int32)
+  commentId: M:MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel(System.Int32)
+  id: supprimerPersonnel(System.Int32)
+  parent: MediaTek86.Controller.FrmAdministrationController
+  langs:
+  - csharp
+  - vb
+  name: supprimerPersonnel(int)
+  nameWithType: FrmAdministrationController.supprimerPersonnel(int)
+  fullName: MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel(int)
+  type: Method
+  source:
+    remote:
+      path: Controller/FrmAdministrationController.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: supprimerPersonnel
+    path: ../Controller/FrmAdministrationController.cs
+    startLine: 35
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Controller
+  summary: Supprime un personnel
+  example: []
+  syntax:
+    content: public void supprimerPersonnel(int idPersonnel)
+    parameters:
+    - id: idPersonnel
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub supprimerPersonnel(idPersonnel As Integer)
+  overload: MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel*
+  nameWithType.vb: FrmAdministrationController.supprimerPersonnel(Integer)
+  fullName.vb: MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel(Integer)
+  name.vb: supprimerPersonnel(Integer)
+references:
+- uid: MediaTek86.Controller
+  commentId: N:MediaTek86.Controller
+  href: MediaTek86.html
+  name: MediaTek86.Controller
+  nameWithType: MediaTek86.Controller
+  fullName: MediaTek86.Controller
+  spec.csharp:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.Controller
+    name: Controller
+    href: MediaTek86.Controller.html
+  spec.vb:
+  - uid: MediaTek86
+    name: MediaTek86
+    href: MediaTek86.html
+  - name: .
+  - uid: MediaTek86.Controller
+    name: Controller
+    href: MediaTek86.Controller.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MediaTek86.Controller.FrmAdministrationController.#ctor*
+  commentId: Overload:MediaTek86.Controller.FrmAdministrationController.#ctor
+  href: MediaTek86.Controller.FrmAdministrationController.html#MediaTek86_Controller_FrmAdministrationController__ctor
+  name: FrmAdministrationController
+  nameWithType: FrmAdministrationController.FrmAdministrationController
+  fullName: MediaTek86.Controller.FrmAdministrationController.FrmAdministrationController
+  nameWithType.vb: FrmAdministrationController.New
+  fullName.vb: MediaTek86.Controller.FrmAdministrationController.New
+  name.vb: New
+- uid: MediaTek86.Controller.FrmAdministrationController.getLesPersonnels*
+  commentId: Overload:MediaTek86.Controller.FrmAdministrationController.getLesPersonnels
+  href: MediaTek86.Controller.FrmAdministrationController.html#MediaTek86_Controller_FrmAdministrationController_getLesPersonnels
+  name: getLesPersonnels
+  nameWithType: FrmAdministrationController.getLesPersonnels
+  fullName: MediaTek86.Controller.FrmAdministrationController.getLesPersonnels
+- uid: System.Collections.Generic.List{MediaTek86.Model.Personnel}
+  commentId: T:System.Collections.Generic.List{MediaTek86.Model.Personnel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Personnel>
+  nameWithType: List<Personnel>
+  fullName: System.Collections.Generic.List<MediaTek86.Model.Personnel>
+  nameWithType.vb: List(Of Personnel)
+  fullName.vb: System.Collections.Generic.List(Of MediaTek86.Model.Personnel)
+  name.vb: List(Of Personnel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: MediaTek86.Model.Personnel
+    name: Personnel
+    href: MediaTek86.Model.Personnel.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MediaTek86.Model.Personnel
+    name: Personnel
+    href: MediaTek86.Model.Personnel.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel*
+  commentId: Overload:MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel
+  href: MediaTek86.Controller.FrmAdministrationController.html#MediaTek86_Controller_FrmAdministrationController_supprimerPersonnel_System_Int32_
+  name: supprimerPersonnel
+  nameWithType: FrmAdministrationController.supprimerPersonnel
+  fullName: MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

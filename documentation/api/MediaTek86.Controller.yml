@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: MediaTek86.Controller
+  commentId: N:MediaTek86.Controller
+  id: MediaTek86.Controller
+  children:
+  - MediaTek86.Controller.FrmAbsencePersonnelController
+  - MediaTek86.Controller.FrmAdministrationController
+  - MediaTek86.Controller.FrmAjoutModifPersonnelController
+  - MediaTek86.Controller.FrmConnexionController
+  langs:
+  - csharp
+  - vb
+  name: MediaTek86.Controller
+  nameWithType: MediaTek86.Controller
+  fullName: MediaTek86.Controller
+  type: Namespace
+  assemblies:
+  - MediaTek86
+references:
+- uid: MediaTek86.Controller.FrmAbsencePersonnelController
+  commentId: T:MediaTek86.Controller.FrmAbsencePersonnelController
+  href: MediaTek86.Controller.FrmAbsencePersonnelController.html
+  name: FrmAbsencePersonnelController
+  nameWithType: FrmAbsencePersonnelController
+  fullName: MediaTek86.Controller.FrmAbsencePersonnelController
+- uid: MediaTek86.Controller.FrmAdministrationController
+  commentId: T:MediaTek86.Controller.FrmAdministrationController
+  href: MediaTek86.Controller.FrmAdministrationController.html
+  name: FrmAdministrationController
+  nameWithType: FrmAdministrationController
+  fullName: MediaTek86.Controller.FrmAdministrationController
+- uid: MediaTek86.Controller.FrmAjoutModifPersonnelController
+  commentId: T:MediaTek86.Controller.FrmAjoutModifPersonnelController
+  href: MediaTek86.Controller.FrmAjoutModifPersonnelController.html
+  name: FrmAjoutModifPersonnelController
+  nameWithType: FrmAjoutModifPersonnelController
+  fullName: MediaTek86.Controller.FrmAjoutModifPersonnelController
+- uid: MediaTek86.Controller.FrmConnexionController
+  commentId: T:MediaTek86.Controller.FrmConnexionController
+  href: MediaTek86.Controller.FrmConnexionController.html
+  name: FrmConnexionController
+  nameWithType: FrmConnexionController
+  fullName: MediaTek86.Controller.FrmConnexionController
