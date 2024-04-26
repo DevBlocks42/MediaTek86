@@ -34,6 +34,7 @@
             BtnDeleteAbsence = new Button();
             BtnEditAbsence = new Button();
             BtnAddAbsence = new Button();
+            BtnRetour = new Button();
             SuspendLayout();
             // 
             // LbxAbsencesPersonnel
@@ -68,10 +69,18 @@
             BtnAddAbsence.UseVisualStyleBackColor = true;
             BtnAddAbsence.Click += BtnAddAbsence_Click;
             // 
+            // BtnRetour
+            // 
+            resources.ApplyResources(BtnRetour, "BtnRetour");
+            BtnRetour.Name = "BtnRetour";
+            BtnRetour.UseVisualStyleBackColor = true;
+            BtnRetour.Click += BtnRetour_Click;
+            // 
             // FrmAbsencePersonnel
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(BtnRetour);
             Controls.Add(BtnDeleteAbsence);
             Controls.Add(BtnEditAbsence);
             Controls.Add(BtnAddAbsence);
@@ -91,5 +100,6 @@
         private Button BtnDeleteAbsence;
         private Button BtnEditAbsence;
         private Button BtnAddAbsence;
+        private Button BtnRetour;
     }
 }

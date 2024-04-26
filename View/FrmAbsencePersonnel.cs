@@ -30,7 +30,7 @@ namespace MediaTek86.View
         }
         private void BtnEditAbsence_Click(object sender, EventArgs e)
         {
-            if(LbxAbsencesPersonnel.SelectedIndex != -1)
+            if (LbxAbsencesPersonnel.SelectedIndex != -1)
             {
                 FrmAjoutModifAbsence frmAjoutModifAbsence = new FrmAjoutModifAbsence(personnel, (Absence)LbxAbsencesPersonnel.SelectedItem);
                 this.Close();
@@ -59,6 +59,12 @@ namespace MediaTek86.View
             {
                 MessageBox.Show("Erreur, vous devez séléctionner une absence dans la liste pour la supprimer.");
             }
+        }
+        private void BtnRetour_Click(object sender, EventArgs e)
+        {
+            FrmAdministration frmAdministration = new FrmAdministration();
+            this.Close();
+            frmAdministration.Show();   
         }
     }
 }
