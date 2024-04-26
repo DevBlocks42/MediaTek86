@@ -6,6 +6,8 @@ items:
   parent: MediaTek86.Model
   children:
   - MediaTek86.Model.Motif.#ctor(System.Int32,System.String)
+  - MediaTek86.Model.Motif.ToString
+  - MediaTek86.Model.Motif.getIdMotif
   - MediaTek86.Model.Motif.getLibelle
   langs:
   - csharp
@@ -21,7 +23,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: Motif
     path: ../Model/Motif.cs
-    startLine: 11
+    startLine: 5
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -39,7 +41,6 @@ items:
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
 - uid: MediaTek86.Model.Motif.#ctor(System.Int32,System.String)
   commentId: M:MediaTek86.Model.Motif.#ctor(System.Int32,System.String)
   id: '#ctor(System.Int32,System.String)'
@@ -58,7 +59,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../Model/Motif.cs
-    startLine: 20
+    startLine: 14
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -96,7 +97,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getLibelle
     path: ../Model/Motif.cs
-    startLine: 29
+    startLine: 23
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -109,6 +110,69 @@ items:
       description: String
     content.vb: Public Function getLibelle() As String
   overload: MediaTek86.Model.Motif.getLibelle*
+- uid: MediaTek86.Model.Motif.getIdMotif
+  commentId: M:MediaTek86.Model.Motif.getIdMotif
+  id: getIdMotif
+  parent: MediaTek86.Model.Motif
+  langs:
+  - csharp
+  - vb
+  name: getIdMotif()
+  nameWithType: Motif.getIdMotif()
+  fullName: MediaTek86.Model.Motif.getIdMotif()
+  type: Method
+  source:
+    remote:
+      path: Model/Motif.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: getIdMotif
+    path: ../Model/Motif.cs
+    startLine: 31
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Model
+  summary: Getter sur idMotif
+  example: []
+  syntax:
+    content: public int getIdMotif()
+    return:
+      type: System.Int32
+      description: int idMotif
+    content.vb: Public Function getIdMotif() As Integer
+  overload: MediaTek86.Model.Motif.getIdMotif*
+- uid: MediaTek86.Model.Motif.ToString
+  commentId: M:MediaTek86.Model.Motif.ToString
+  id: ToString
+  parent: MediaTek86.Model.Motif
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Motif.ToString()
+  fullName: MediaTek86.Model.Motif.ToString()
+  type: Method
+  source:
+    remote:
+      path: Model/Motif.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: ToString
+    path: ../Model/Motif.cs
+    startLine: 39
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Model
+  summary: Redéfinition de l'affichage de l'objet Motif
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: string représentant l'instance de l'objet Motif
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: MediaTek86.Model.Motif.ToString*
 references:
 - uid: MediaTek86.Model
   commentId: N:MediaTek86.Model
@@ -338,30 +402,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -406,3 +446,39 @@ references:
   name: getLibelle
   nameWithType: Motif.getLibelle
   fullName: MediaTek86.Model.Motif.getLibelle
+- uid: MediaTek86.Model.Motif.getIdMotif*
+  commentId: Overload:MediaTek86.Model.Motif.getIdMotif
+  href: MediaTek86.Model.Motif.html#MediaTek86_Model_Motif_getIdMotif
+  name: getIdMotif
+  nameWithType: Motif.getIdMotif
+  fullName: MediaTek86.Model.Motif.getIdMotif
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: MediaTek86.Model.Motif.ToString*
+  commentId: Overload:MediaTek86.Model.Motif.ToString
+  href: MediaTek86.Model.Motif.html#MediaTek86_Model_Motif_ToString
+  name: ToString
+  nameWithType: Motif.ToString
+  fullName: MediaTek86.Model.Motif.ToString

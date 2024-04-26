@@ -1,36 +1,38 @@
 ### YamlMime:ManagedReference
 items:
-- uid: MediaTek86.Controller.FrmAbsencePersonnelController
-  commentId: T:MediaTek86.Controller.FrmAbsencePersonnelController
-  id: FrmAbsencePersonnelController
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController
+  commentId: T:MediaTek86.Controller.FrmAjoutModifAbsenceController
+  id: FrmAjoutModifAbsenceController
   parent: MediaTek86.Controller
   children:
-  - MediaTek86.Controller.FrmAbsencePersonnelController.#ctor
-  - MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences(System.Int32)
-  - MediaTek86.Controller.FrmAbsencePersonnelController.supprimerAbsence(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
+  - MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
+  - MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  - MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+  - MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(System.Int32)
+  - MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
   langs:
   - csharp
   - vb
-  name: FrmAbsencePersonnelController
-  nameWithType: FrmAbsencePersonnelController
-  fullName: MediaTek86.Controller.FrmAbsencePersonnelController
+  name: FrmAjoutModifAbsenceController
+  nameWithType: FrmAjoutModifAbsenceController
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController
   type: Class
   source:
     remote:
-      path: Controller/FrmAbsencePersonnelController.cs
+      path: Controller/FrmAjoutModifAbsenceController.cs
       branch: master
       repo: https://github.com/DevBlocks42/MediaTek86
-    id: FrmAbsencePersonnelController
-    path: ../Controller/FrmAbsencePersonnelController.cs
+    id: FrmAjoutModifAbsenceController
+    path: ../Controller/FrmAjoutModifAbsenceController.cs
     startLine: 8
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
-  summary: Contrôleur de FrmAbsencePersonnel
+  summary: Contrôleur de FrmAjoutModifAbsence
   example: []
   syntax:
-    content: public class FrmAbsencePersonnelController
-    content.vb: Public Class FrmAbsencePersonnelController
+    content: public class FrmAjoutModifAbsenceController
+    content.vb: Public Class FrmAjoutModifAbsenceController
   inheritance:
   - System.Object
   inheritedMembers:
@@ -41,110 +43,179 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: MediaTek86.Controller.FrmAbsencePersonnelController.#ctor
-  commentId: M:MediaTek86.Controller.FrmAbsencePersonnelController.#ctor
-  id: '#ctor'
-  parent: MediaTek86.Controller.FrmAbsencePersonnelController
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
+  id: '#ctor(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)'
+  parent: MediaTek86.Controller.FrmAjoutModifAbsenceController
   langs:
   - csharp
   - vb
-  name: FrmAbsencePersonnelController()
-  nameWithType: FrmAbsencePersonnelController.FrmAbsencePersonnelController()
-  fullName: MediaTek86.Controller.FrmAbsencePersonnelController.FrmAbsencePersonnelController()
+  name: FrmAjoutModifAbsenceController(Personnel, Absence)
+  nameWithType: FrmAjoutModifAbsenceController.FrmAjoutModifAbsenceController(Personnel, Absence)
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.FrmAjoutModifAbsenceController(MediaTek86.Model.Personnel, MediaTek86.Model.Absence)
   type: Constructor
   source:
     remote:
-      path: Controller/FrmAbsencePersonnelController.cs
+      path: Controller/FrmAjoutModifAbsenceController.cs
       branch: master
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
-    path: ../Controller/FrmAbsencePersonnelController.cs
-    startLine: 14
+    path: ../Controller/FrmAjoutModifAbsenceController.cs
+    startLine: 16
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
-  summary: Constructeur du controller pour FrmAbsencePersonnel
+  summary: 'Constructeur : iinstance unique de PersonnelAccess'
   example: []
   syntax:
-    content: public FrmAbsencePersonnelController()
-    content.vb: Public Sub New()
-  overload: MediaTek86.Controller.FrmAbsencePersonnelController.#ctor*
-  nameWithType.vb: FrmAbsencePersonnelController.New()
-  fullName.vb: MediaTek86.Controller.FrmAbsencePersonnelController.New()
-  name.vb: New()
-- uid: MediaTek86.Controller.FrmAbsencePersonnelController.supprimerAbsence(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
-  commentId: M:MediaTek86.Controller.FrmAbsencePersonnelController.supprimerAbsence(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
-  id: supprimerAbsence(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
-  parent: MediaTek86.Controller.FrmAbsencePersonnelController
-  langs:
-  - csharp
-  - vb
-  name: supprimerAbsence(Personnel, Absence)
-  nameWithType: FrmAbsencePersonnelController.supprimerAbsence(Personnel, Absence)
-  fullName: MediaTek86.Controller.FrmAbsencePersonnelController.supprimerAbsence(MediaTek86.Model.Personnel, MediaTek86.Model.Absence)
-  type: Method
-  source:
-    remote:
-      path: Controller/FrmAbsencePersonnelController.cs
-      branch: master
-      repo: https://github.com/DevBlocks42/MediaTek86
-    id: supprimerAbsence
-    path: ../Controller/FrmAbsencePersonnelController.cs
-    startLine: 23
-  assemblies:
-  - MediaTek86
-  namespace: MediaTek86.Controller
-  summary: Supprime une absence d'un personnel
-  example: []
-  syntax:
-    content: public void supprimerAbsence(Personnel personnel, Absence absence)
+    content: public FrmAjoutModifAbsenceController(Personnel personnel, Absence absence)
     parameters:
     - id: personnel
       type: MediaTek86.Model.Personnel
-      description: ''
     - id: absence
       type: MediaTek86.Model.Absence
+    content.vb: Public Sub New(personnel As Personnel, absence As Absence)
+  overload: MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor*
+  nameWithType.vb: FrmAjoutModifAbsenceController.New(Personnel, Absence)
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.New(MediaTek86.Model.Personnel, MediaTek86.Model.Absence)
+  name.vb: New(Personnel, Absence)
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+  id: getAllMotifs
+  parent: MediaTek86.Controller.FrmAjoutModifAbsenceController
+  langs:
+  - csharp
+  - vb
+  name: getAllMotifs()
+  nameWithType: FrmAjoutModifAbsenceController.getAllMotifs()
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs()
+  type: Method
+  source:
+    remote:
+      path: Controller/FrmAjoutModifAbsenceController.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: getAllMotifs
+    path: ../Controller/FrmAjoutModifAbsenceController.cs
+    startLine: 26
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Controller
+  summary: Retourne la liste des motifs
+  example: []
+  syntax:
+    content: public List<Motif> getAllMotifs()
+    return:
+      type: System.Collections.Generic.List{MediaTek86.Model.Motif}
       description: ''
-    content.vb: Public Sub supprimerAbsence(personnel As Personnel, absence As Absence)
-  overload: MediaTek86.Controller.FrmAbsencePersonnelController.supprimerAbsence*
-- uid: MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences(System.Int32)
-  commentId: M:MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences(System.Int32)
+    content.vb: Public Function getAllMotifs() As List(Of Motif)
+  overload: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs*
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(System.Int32)
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(System.Int32)
   id: getPersonnelAbsences(System.Int32)
-  parent: MediaTek86.Controller.FrmAbsencePersonnelController
+  parent: MediaTek86.Controller.FrmAjoutModifAbsenceController
   langs:
   - csharp
   - vb
   name: getPersonnelAbsences(int)
-  nameWithType: FrmAbsencePersonnelController.getPersonnelAbsences(int)
-  fullName: MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences(int)
+  nameWithType: FrmAjoutModifAbsenceController.getPersonnelAbsences(int)
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(int)
   type: Method
   source:
     remote:
-      path: Controller/FrmAbsencePersonnelController.cs
+      path: Controller/FrmAjoutModifAbsenceController.cs
       branch: master
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getPersonnelAbsences
-    path: ../Controller/FrmAbsencePersonnelController.cs
-    startLine: 32
+    path: ../Controller/FrmAjoutModifAbsenceController.cs
+    startLine: 30
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
-  summary: Récupère la liste des absences d'un personnel
-  example: []
   syntax:
     content: public List<Absence> getPersonnelAbsences(int idPersonnel)
     parameters:
     - id: idPersonnel
       type: System.Int32
-      description: ''
     return:
       type: System.Collections.Generic.List{MediaTek86.Model.Absence}
-      description: List d'Absence
     content.vb: Public Function getPersonnelAbsences(idPersonnel As Integer) As List(Of Absence)
-  overload: MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences*
-  nameWithType.vb: FrmAbsencePersonnelController.getPersonnelAbsences(Integer)
-  fullName.vb: MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences(Integer)
+  overload: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences*
+  nameWithType.vb: FrmAjoutModifAbsenceController.getPersonnelAbsences(Integer)
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(Integer)
   name.vb: getPersonnelAbsences(Integer)
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  id: ajouterAbsence(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  parent: MediaTek86.Controller.FrmAjoutModifAbsenceController
+  langs:
+  - csharp
+  - vb
+  name: ajouterAbsence(DateTime, DateTime, Motif)
+  nameWithType: FrmAjoutModifAbsenceController.ajouterAbsence(DateTime, DateTime, Motif)
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(System.DateTime, System.DateTime, MediaTek86.Model.Motif)
+  type: Method
+  source:
+    remote:
+      path: Controller/FrmAjoutModifAbsenceController.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: ajouterAbsence
+    path: ../Controller/FrmAjoutModifAbsenceController.cs
+    startLine: 34
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Controller
+  syntax:
+    content: public void ajouterAbsence(DateTime dateDebut, DateTime dateFin, Motif motif)
+    parameters:
+    - id: dateDebut
+      type: System.DateTime
+    - id: dateFin
+      type: System.DateTime
+    - id: motif
+      type: MediaTek86.Model.Motif
+    content.vb: Public Sub ajouterAbsence(dateDebut As Date, dateFin As Date, motif As Motif)
+  overload: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence*
+  nameWithType.vb: FrmAjoutModifAbsenceController.ajouterAbsence(Date, Date, Motif)
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(Date, Date, MediaTek86.Model.Motif)
+  name.vb: ajouterAbsence(Date, Date, Motif)
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  id: updateAbsencePersonnel(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  parent: MediaTek86.Controller.FrmAjoutModifAbsenceController
+  langs:
+  - csharp
+  - vb
+  name: updateAbsencePersonnel(DateTime, DateTime, Motif)
+  nameWithType: FrmAjoutModifAbsenceController.updateAbsencePersonnel(DateTime, DateTime, Motif)
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(System.DateTime, System.DateTime, MediaTek86.Model.Motif)
+  type: Method
+  source:
+    remote:
+      path: Controller/FrmAjoutModifAbsenceController.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: updateAbsencePersonnel
+    path: ../Controller/FrmAjoutModifAbsenceController.cs
+    startLine: 38
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Controller
+  syntax:
+    content: public void updateAbsencePersonnel(DateTime dateDebut, DateTime dateFin, Motif motif)
+    parameters:
+    - id: dateDebut
+      type: System.DateTime
+    - id: dateFin
+      type: System.DateTime
+    - id: motif
+      type: MediaTek86.Model.Motif
+    content.vb: Public Sub updateAbsencePersonnel(dateDebut As Date, dateFin As Date, motif As Motif)
+  overload: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel*
+  nameWithType.vb: FrmAjoutModifAbsenceController.updateAbsencePersonnel(Date, Date, Motif)
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(Date, Date, MediaTek86.Model.Motif)
+  name.vb: updateAbsencePersonnel(Date, Date, Motif)
 references:
 - uid: MediaTek86.Controller
   commentId: N:MediaTek86.Controller
@@ -405,21 +476,15 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: MediaTek86.Controller.FrmAbsencePersonnelController.#ctor*
-  commentId: Overload:MediaTek86.Controller.FrmAbsencePersonnelController.#ctor
-  href: MediaTek86.Controller.FrmAbsencePersonnelController.html#MediaTek86_Controller_FrmAbsencePersonnelController__ctor
-  name: FrmAbsencePersonnelController
-  nameWithType: FrmAbsencePersonnelController.FrmAbsencePersonnelController
-  fullName: MediaTek86.Controller.FrmAbsencePersonnelController.FrmAbsencePersonnelController
-  nameWithType.vb: FrmAbsencePersonnelController.New
-  fullName.vb: MediaTek86.Controller.FrmAbsencePersonnelController.New
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor*
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor
+  href: MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController__ctor_MediaTek86_Model_Personnel_MediaTek86_Model_Absence_
+  name: FrmAjoutModifAbsenceController
+  nameWithType: FrmAjoutModifAbsenceController.FrmAjoutModifAbsenceController
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.FrmAjoutModifAbsenceController
+  nameWithType.vb: FrmAjoutModifAbsenceController.New
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.New
   name.vb: New
-- uid: MediaTek86.Controller.FrmAbsencePersonnelController.supprimerAbsence*
-  commentId: Overload:MediaTek86.Controller.FrmAbsencePersonnelController.supprimerAbsence
-  href: MediaTek86.Controller.FrmAbsencePersonnelController.html#MediaTek86_Controller_FrmAbsencePersonnelController_supprimerAbsence_MediaTek86_Model_Personnel_MediaTek86_Model_Absence_
-  name: supprimerAbsence
-  nameWithType: FrmAbsencePersonnelController.supprimerAbsence
-  fullName: MediaTek86.Controller.FrmAbsencePersonnelController.supprimerAbsence
 - uid: MediaTek86.Model.Personnel
   commentId: T:MediaTek86.Model.Personnel
   parent: MediaTek86.Model
@@ -456,43 +521,32 @@ references:
   - uid: MediaTek86.Model
     name: Model
     href: MediaTek86.Model.html
-- uid: MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences*
-  commentId: Overload:MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences
-  href: MediaTek86.Controller.FrmAbsencePersonnelController.html#MediaTek86_Controller_FrmAbsencePersonnelController_getPersonnelAbsences_System_Int32_
-  name: getPersonnelAbsences
-  nameWithType: FrmAbsencePersonnelController.getPersonnelAbsences
-  fullName: MediaTek86.Controller.FrmAbsencePersonnelController.getPersonnelAbsences
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Collections.Generic.List{MediaTek86.Model.Absence}
-  commentId: T:System.Collections.Generic.List{MediaTek86.Model.Absence}
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs*
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+  href: MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_getAllMotifs
+  name: getAllMotifs
+  nameWithType: FrmAjoutModifAbsenceController.getAllMotifs
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+- uid: System.Collections.Generic.List{MediaTek86.Model.Motif}
+  commentId: T:System.Collections.Generic.List{MediaTek86.Model.Motif}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
   href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<Absence>
-  nameWithType: List<Absence>
-  fullName: System.Collections.Generic.List<MediaTek86.Model.Absence>
-  nameWithType.vb: List(Of Absence)
-  fullName.vb: System.Collections.Generic.List(Of MediaTek86.Model.Absence)
-  name.vb: List(Of Absence)
+  name: List<Motif>
+  nameWithType: List<Motif>
+  fullName: System.Collections.Generic.List<MediaTek86.Model.Motif>
+  nameWithType.vb: List(Of Motif)
+  fullName.vb: System.Collections.Generic.List(Of MediaTek86.Model.Motif)
+  name.vb: List(Of Motif)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - uid: MediaTek86.Model.Absence
-    name: Absence
-    href: MediaTek86.Model.Absence.html
+  - uid: MediaTek86.Model.Motif
+    name: Motif
+    href: MediaTek86.Model.Motif.html
   - name: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
@@ -502,9 +556,9 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: MediaTek86.Model.Absence
-    name: Absence
-    href: MediaTek86.Model.Absence.html
+  - uid: MediaTek86.Model.Motif
+    name: Motif
+    href: MediaTek86.Model.Motif.html
   - name: )
 - uid: System.Collections.Generic.List`1
   commentId: T:System.Collections.Generic.List`1
@@ -571,3 +625,83 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences*
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences
+  href: MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_getPersonnelAbsences_System_Int32_
+  name: getPersonnelAbsences
+  nameWithType: FrmAjoutModifAbsenceController.getPersonnelAbsences
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.List{MediaTek86.Model.Absence}
+  commentId: T:System.Collections.Generic.List{MediaTek86.Model.Absence}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Absence>
+  nameWithType: List<Absence>
+  fullName: System.Collections.Generic.List<MediaTek86.Model.Absence>
+  nameWithType.vb: List(Of Absence)
+  fullName.vb: System.Collections.Generic.List(Of MediaTek86.Model.Absence)
+  name.vb: List(Of Absence)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: MediaTek86.Model.Absence
+    name: Absence
+    href: MediaTek86.Model.Absence.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MediaTek86.Model.Absence
+    name: Absence
+    href: MediaTek86.Model.Absence.html
+  - name: )
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence*
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence
+  href: MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_ajouterAbsence_System_DateTime_System_DateTime_MediaTek86_Model_Motif_
+  name: ajouterAbsence
+  nameWithType: FrmAjoutModifAbsenceController.ajouterAbsence
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: MediaTek86.Model.Motif
+  commentId: T:MediaTek86.Model.Motif
+  parent: MediaTek86.Model
+  href: MediaTek86.Model.Motif.html
+  name: Motif
+  nameWithType: Motif
+  fullName: MediaTek86.Model.Motif
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel*
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel
+  href: MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_updateAbsencePersonnel_System_DateTime_System_DateTime_MediaTek86_Model_Motif_
+  name: updateAbsencePersonnel
+  nameWithType: FrmAjoutModifAbsenceController.updateAbsencePersonnel
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel

@@ -22,7 +22,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: Service
     path: ../Model/Service.cs
-    startLine: 11
+    startLine: 5
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -59,7 +59,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../Model/Service.cs
-    startLine: 20
+    startLine: 14
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -97,7 +97,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getNom
     path: ../Model/Service.cs
-    startLine: 29
+    startLine: 23
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -128,7 +128,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getIdService
     path: ../Model/Service.cs
-    startLine: 37
+    startLine: 31
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model

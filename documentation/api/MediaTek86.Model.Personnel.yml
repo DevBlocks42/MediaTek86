@@ -29,7 +29,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: Personnel
     path: ../Model/Personnel.cs
-    startLine: 11
+    startLine: 5
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -65,7 +65,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../Model/Personnel.cs
-    startLine: 30
+    startLine: 24
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -118,7 +118,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getNom
     path: ../Model/Personnel.cs
-    startLine: 44
+    startLine: 38
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -149,7 +149,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getPrenom
     path: ../Model/Personnel.cs
-    startLine: 52
+    startLine: 46
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -180,7 +180,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getTel
     path: ../Model/Personnel.cs
-    startLine: 60
+    startLine: 54
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -211,7 +211,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getMail
     path: ../Model/Personnel.cs
-    startLine: 68
+    startLine: 62
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -242,7 +242,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getService
     path: ../Model/Personnel.cs
-    startLine: 76
+    startLine: 70
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -273,7 +273,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getIdPersonnel
     path: ../Model/Personnel.cs
-    startLine: 84
+    startLine: 78
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -304,7 +304,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getAbsences
     path: ../Model/Personnel.cs
-    startLine: 92
+    startLine: 86
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -335,7 +335,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: setAbsences
     path: ../Model/Personnel.cs
-    startLine: 100
+    startLine: 94
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -370,7 +370,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: ToString
     path: ../Model/Personnel.cs
-    startLine: 108
+    startLine: 102
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -380,7 +380,7 @@ items:
     content: public override string ToString()
     return:
       type: System.String
-      description: string
+      description: string représentant l'objet Personnel
     content.vb: Public Overrides Function ToString() As String
   overridden: System.Object.ToString
   overload: MediaTek86.Model.Personnel.ToString*

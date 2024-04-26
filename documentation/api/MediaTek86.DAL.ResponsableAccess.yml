@@ -21,7 +21,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: ResponsableAccess
     path: ../DAL/ResponsableAccess.cs
-    startLine: 11
+    startLine: 5
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -58,7 +58,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../DAL/ResponsableAccess.cs
-    startLine: 20
+    startLine: 14
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -89,7 +89,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: controleAuthentification
     path: ../DAL/ResponsableAccess.cs
-    startLine: 30
+    startLine: 24
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL

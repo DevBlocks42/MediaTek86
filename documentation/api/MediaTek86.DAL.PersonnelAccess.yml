@@ -6,13 +6,16 @@ items:
   parent: MediaTek86.DAL
   children:
   - MediaTek86.DAL.PersonnelAccess.#ctor
+  - MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
   - MediaTek86.DAL.PersonnelAccess.ajouterPersonnel(System.String,System.String,System.String,System.String,System.Int32)
+  - MediaTek86.DAL.PersonnelAccess.getAllMotifs
   - MediaTek86.DAL.PersonnelAccess.getLesPersonnels
   - MediaTek86.DAL.PersonnelAccess.getMotifLibelle(System.Int32)
   - MediaTek86.DAL.PersonnelAccess.getNomServices
   - MediaTek86.DAL.PersonnelAccess.getPersonnelAbsences(System.Int32)
   - MediaTek86.DAL.PersonnelAccess.supprimerAbsence(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
   - MediaTek86.DAL.PersonnelAccess.supprimerPersonnel(System.Int32)
+  - MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
   - MediaTek86.DAL.PersonnelAccess.updatePersonnel(System.Int32,System.String,System.String,System.String,System.String,System.Int32)
   langs:
   - csharp
@@ -28,7 +31,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: PersonnelAccess
     path: ../DAL/PersonnelAccess.cs
-    startLine: 15
+    startLine: 7
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -65,7 +68,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../DAL/PersonnelAccess.cs
-    startLine: 24
+    startLine: 16
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -96,7 +99,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getLesPersonnels
     path: ../DAL/PersonnelAccess.cs
-    startLine: 32
+    startLine: 24
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -127,7 +130,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getPersonnelAbsences
     path: ../DAL/PersonnelAccess.cs
-    startLine: 81
+    startLine: 73
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -165,7 +168,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getMotifLibelle
     path: ../DAL/PersonnelAccess.cs
-    startLine: 114
+    startLine: 106
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -203,7 +206,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: ajouterPersonnel
     path: ../DAL/PersonnelAccess.cs
-    startLine: 141
+    startLine: 133
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -250,7 +253,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: updatePersonnel
     path: ../DAL/PersonnelAccess.cs
-    startLine: 171
+    startLine: 163
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -300,7 +303,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: supprimerPersonnel
     path: ../DAL/PersonnelAccess.cs
-    startLine: 197
+    startLine: 189
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -335,7 +338,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: supprimerAbsence
     path: ../DAL/PersonnelAccess.cs
-    startLine: 219
+    startLine: 211
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -370,7 +373,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getNomServices
     path: ../DAL/PersonnelAccess.cs
-    startLine: 243
+    startLine: 235
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -383,6 +386,125 @@ items:
       description: List de String nomServices
     content.vb: Public Function getNomServices() As List(Of String)
   overload: MediaTek86.DAL.PersonnelAccess.getNomServices*
+- uid: MediaTek86.DAL.PersonnelAccess.getAllMotifs
+  commentId: M:MediaTek86.DAL.PersonnelAccess.getAllMotifs
+  id: getAllMotifs
+  parent: MediaTek86.DAL.PersonnelAccess
+  langs:
+  - csharp
+  - vb
+  name: getAllMotifs()
+  nameWithType: PersonnelAccess.getAllMotifs()
+  fullName: MediaTek86.DAL.PersonnelAccess.getAllMotifs()
+  type: Method
+  source:
+    remote:
+      path: DAL/PersonnelAccess.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: getAllMotifs
+    path: ../DAL/PersonnelAccess.cs
+    startLine: 258
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.DAL
+  summary: Récupère la liste  des motifs dans la base de données
+  example: []
+  syntax:
+    content: public List<Motif> getAllMotifs()
+    return:
+      type: System.Collections.Generic.List{MediaTek86.Model.Motif}
+      description: List de Motif
+    content.vb: Public Function getAllMotifs() As List(Of Motif)
+  overload: MediaTek86.DAL.PersonnelAccess.getAllMotifs*
+- uid: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  commentId: M:MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  id: ajouterAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  parent: MediaTek86.DAL.PersonnelAccess
+  langs:
+  - csharp
+  - vb
+  name: ajouterAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  nameWithType: PersonnelAccess.ajouterAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  fullName: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel, System.DateTime, System.DateTime, MediaTek86.Model.Motif)
+  type: Method
+  source:
+    remote:
+      path: DAL/PersonnelAccess.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: ajouterAbsencePersonnel
+    path: ../DAL/PersonnelAccess.cs
+    startLine: 284
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.DAL
+  summary: Ajoute une absence pour un personnel dans la base de données
+  example: []
+  syntax:
+    content: public void ajouterAbsencePersonnel(Personnel personnel, DateTime dateDebut, DateTime dateFin, Motif motif)
+    parameters:
+    - id: personnel
+      type: MediaTek86.Model.Personnel
+      description: ''
+    - id: dateDebut
+      type: System.DateTime
+      description: ''
+    - id: dateFin
+      type: System.DateTime
+      description: ''
+    - id: motif
+      type: MediaTek86.Model.Motif
+      description: ''
+    content.vb: Public Sub ajouterAbsencePersonnel(personnel As Personnel, dateDebut As Date, dateFin As Date, motif As Motif)
+  overload: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel*
+  nameWithType.vb: PersonnelAccess.ajouterAbsencePersonnel(Personnel, Date, Date, Motif)
+  fullName.vb: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel, Date, Date, MediaTek86.Model.Motif)
+  name.vb: ajouterAbsencePersonnel(Personnel, Date, Date, Motif)
+- uid: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  commentId: M:MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  id: updateAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  parent: MediaTek86.DAL.PersonnelAccess
+  langs:
+  - csharp
+  - vb
+  name: updateAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  nameWithType: PersonnelAccess.updateAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  fullName: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel, System.DateTime, System.DateTime, MediaTek86.Model.Motif)
+  type: Method
+  source:
+    remote:
+      path: DAL/PersonnelAccess.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: updateAbsencePersonnel
+    path: ../DAL/PersonnelAccess.cs
+    startLine: 311
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.DAL
+  summary: Met à jour une absence d'un personnel dans la base de données
+  example: []
+  syntax:
+    content: public void updateAbsencePersonnel(Personnel personnel, DateTime dateDebut, DateTime dateFin, Motif motif)
+    parameters:
+    - id: personnel
+      type: MediaTek86.Model.Personnel
+      description: ''
+    - id: dateDebut
+      type: System.DateTime
+      description: ''
+    - id: dateFin
+      type: System.DateTime
+      description: ''
+    - id: motif
+      type: MediaTek86.Model.Motif
+      description: ''
+    content.vb: Public Sub updateAbsencePersonnel(personnel As Personnel, dateDebut As Date, dateFin As Date, motif As Motif)
+  overload: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel*
+  nameWithType.vb: PersonnelAccess.updateAbsencePersonnel(Personnel, Date, Date, Motif)
+  fullName.vb: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel, Date, Date, MediaTek86.Model.Motif)
+  name.vb: updateAbsencePersonnel(Personnel, Date, Date, Motif)
 references:
 - uid: MediaTek86.DAL
   commentId: N:MediaTek86.DAL
@@ -924,3 +1046,72 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+- uid: MediaTek86.DAL.PersonnelAccess.getAllMotifs*
+  commentId: Overload:MediaTek86.DAL.PersonnelAccess.getAllMotifs
+  href: MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_getAllMotifs
+  name: getAllMotifs
+  nameWithType: PersonnelAccess.getAllMotifs
+  fullName: MediaTek86.DAL.PersonnelAccess.getAllMotifs
+- uid: System.Collections.Generic.List{MediaTek86.Model.Motif}
+  commentId: T:System.Collections.Generic.List{MediaTek86.Model.Motif}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Motif>
+  nameWithType: List<Motif>
+  fullName: System.Collections.Generic.List<MediaTek86.Model.Motif>
+  nameWithType.vb: List(Of Motif)
+  fullName.vb: System.Collections.Generic.List(Of MediaTek86.Model.Motif)
+  name.vb: List(Of Motif)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: MediaTek86.Model.Motif
+    name: Motif
+    href: MediaTek86.Model.Motif.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: MediaTek86.Model.Motif
+    name: Motif
+    href: MediaTek86.Model.Motif.html
+  - name: )
+- uid: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel*
+  commentId: Overload:MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel
+  href: MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_ajouterAbsencePersonnel_MediaTek86_Model_Personnel_System_DateTime_System_DateTime_MediaTek86_Model_Motif_
+  name: ajouterAbsencePersonnel
+  nameWithType: PersonnelAccess.ajouterAbsencePersonnel
+  fullName: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: MediaTek86.Model.Motif
+  commentId: T:MediaTek86.Model.Motif
+  parent: MediaTek86.Model
+  href: MediaTek86.Model.Motif.html
+  name: Motif
+  nameWithType: Motif
+  fullName: MediaTek86.Model.Motif
+- uid: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel*
+  commentId: Overload:MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel
+  href: MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_updateAbsencePersonnel_MediaTek86_Model_Personnel_System_DateTime_System_DateTime_MediaTek86_Model_Motif_
+  name: updateAbsencePersonnel
+  nameWithType: PersonnelAccess.updateAbsencePersonnel
+  fullName: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel

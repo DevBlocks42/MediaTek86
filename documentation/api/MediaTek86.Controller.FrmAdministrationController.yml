@@ -22,7 +22,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: FrmAdministrationController
     path: ../Controller/FrmAdministrationController.cs
-    startLine: 13
+    startLine: 8
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -59,7 +59,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../Controller/FrmAdministrationController.cs
-    startLine: 19
+    startLine: 14
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -90,7 +90,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getLesPersonnels
     path: ../Controller/FrmAdministrationController.cs
-    startLine: 27
+    startLine: 22
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -121,7 +121,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: supprimerPersonnel
     path: ../Controller/FrmAdministrationController.cs
-    startLine: 35
+    startLine: 30
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller

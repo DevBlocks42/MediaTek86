@@ -23,7 +23,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: FrmAjoutModifPersonnelController
     path: ../Controller/FrmAjoutModifPersonnelController.cs
-    startLine: 13
+    startLine: 8
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -60,7 +60,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../Controller/FrmAjoutModifPersonnelController.cs
-    startLine: 20
+    startLine: 15
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -94,7 +94,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: ajouterPersonnel
     path: ../Controller/FrmAjoutModifPersonnelController.cs
-    startLine: 33
+    startLine: 28
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -141,7 +141,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: updatePersonnel
     path: ../Controller/FrmAjoutModifPersonnelController.cs
-    startLine: 46
+    startLine: 41
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -191,7 +191,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getNomServices
     path: ../Controller/FrmAjoutModifPersonnelController.cs
-    startLine: 54
+    startLine: 49
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller

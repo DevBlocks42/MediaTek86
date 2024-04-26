@@ -21,7 +21,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: Access
     path: ../DAL/Access.cs
-    startLine: 14
+    startLine: 7
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -58,7 +58,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: bddManager
     path: ../DAL/Access.cs
-    startLine: 27
+    startLine: 20
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL
@@ -89,7 +89,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: GetInstance
     path: ../DAL/Access.cs
-    startLine: 40
+    startLine: 33
   assemblies:
   - MediaTek86
   namespace: MediaTek86.DAL

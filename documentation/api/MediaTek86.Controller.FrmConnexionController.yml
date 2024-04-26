@@ -21,7 +21,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: FrmConnexionController
     path: ../Controller/FrmConnexionController.cs
-    startLine: 12
+    startLine: 7
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -58,7 +58,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../Controller/FrmConnexionController.cs
-    startLine: 21
+    startLine: 16
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller
@@ -89,7 +89,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: controleAuthentification
     path: ../Controller/FrmConnexionController.cs
-    startLine: 31
+    startLine: 26
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Controller

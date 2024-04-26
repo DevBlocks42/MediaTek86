@@ -580,7 +580,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../View/FrmAjoutModifAbsence.cs
-    startLine: 25
+    startLine: 18
   assemblies:
   - MediaTek86
   namespace: MediaTek86.View

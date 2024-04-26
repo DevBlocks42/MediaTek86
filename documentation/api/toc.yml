@@ -12,6 +12,8 @@ items:
     name: FrmAbsencePersonnelController
   - uid: MediaTek86.Controller.FrmAdministrationController
     name: FrmAdministrationController
+  - uid: MediaTek86.Controller.FrmAjoutModifAbsenceController
+    name: FrmAjoutModifAbsenceController
   - uid: MediaTek86.Controller.FrmAjoutModifPersonnelController
     name: FrmAjoutModifPersonnelController
   - uid: MediaTek86.Controller.FrmConnexionController

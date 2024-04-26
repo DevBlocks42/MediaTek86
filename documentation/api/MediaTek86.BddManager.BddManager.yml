@@ -58,7 +58,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: GetInstance
     path: ../BddManager/BddManager.cs
-    startLine: 30
+    startLine: 28
   assemblies:
   - MediaTek86
   namespace: MediaTek86.BddManager
@@ -96,7 +96,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: ReqControle
     path: ../BddManager/BddManager.cs
-    startLine: 43
+    startLine: 40
   assemblies:
   - MediaTek86
   namespace: MediaTek86.BddManager
@@ -131,7 +131,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: ReqUpdate
     path: ../BddManager/BddManager.cs
-    startLine: 54
+    startLine: 50
   assemblies:
   - MediaTek86
   namespace: MediaTek86.BddManager
@@ -169,7 +169,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: ReqSelect
     path: ../BddManager/BddManager.cs
-    startLine: 74
+    startLine: 69
   assemblies:
   - MediaTek86
   namespace: MediaTek86.BddManager

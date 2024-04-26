@@ -197,6 +197,92 @@ references:
   isSpec: "True"
   fullName: MediaTek86.Controller.FrmAdministrationController.supprimerPersonnel
   nameWithType: FrmAdministrationController.supprimerPersonnel
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController
+  name: FrmAjoutModifAbsenceController
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html
+  commentId: T:MediaTek86.Controller.FrmAjoutModifAbsenceController
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController
+  nameWithType: FrmAjoutModifAbsenceController
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
+  name: FrmAjoutModifAbsenceController(Personnel, Absence)
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController__ctor_MediaTek86_Model_Personnel_MediaTek86_Model_Absence_
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)
+  name.vb: New(Personnel, Absence)
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.FrmAjoutModifAbsenceController(MediaTek86.Model.Personnel, MediaTek86.Model.Absence)
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.New(MediaTek86.Model.Personnel, MediaTek86.Model.Absence)
+  nameWithType: FrmAjoutModifAbsenceController.FrmAjoutModifAbsenceController(Personnel, Absence)
+  nameWithType.vb: FrmAjoutModifAbsenceController.New(Personnel, Absence)
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor*
+  name: FrmAjoutModifAbsenceController
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController__ctor_
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.FrmAjoutModifAbsenceController
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.New
+  nameWithType: FrmAjoutModifAbsenceController.FrmAjoutModifAbsenceController
+  nameWithType.vb: FrmAjoutModifAbsenceController.New
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  name: ajouterAbsence(DateTime, DateTime, Motif)
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_ajouterAbsence_System_DateTime_System_DateTime_MediaTek86_Model_Motif_
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  name.vb: ajouterAbsence(Date, Date, Motif)
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(System.DateTime, System.DateTime, MediaTek86.Model.Motif)
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence(Date, Date, MediaTek86.Model.Motif)
+  nameWithType: FrmAjoutModifAbsenceController.ajouterAbsence(DateTime, DateTime, Motif)
+  nameWithType.vb: FrmAjoutModifAbsenceController.ajouterAbsence(Date, Date, Motif)
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence*
+  name: ajouterAbsence
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_ajouterAbsence_
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence
+  isSpec: "True"
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.ajouterAbsence
+  nameWithType: FrmAjoutModifAbsenceController.ajouterAbsence
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+  name: getAllMotifs()
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_getAllMotifs
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs()
+  nameWithType: FrmAjoutModifAbsenceController.getAllMotifs()
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs*
+  name: getAllMotifs
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_getAllMotifs_
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+  isSpec: "True"
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.getAllMotifs
+  nameWithType: FrmAjoutModifAbsenceController.getAllMotifs
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(System.Int32)
+  name: getPersonnelAbsences(int)
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_getPersonnelAbsences_System_Int32_
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(System.Int32)
+  name.vb: getPersonnelAbsences(Integer)
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(int)
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences(Integer)
+  nameWithType: FrmAjoutModifAbsenceController.getPersonnelAbsences(int)
+  nameWithType.vb: FrmAjoutModifAbsenceController.getPersonnelAbsences(Integer)
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences*
+  name: getPersonnelAbsences
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_getPersonnelAbsences_
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences
+  isSpec: "True"
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.getPersonnelAbsences
+  nameWithType: FrmAjoutModifAbsenceController.getPersonnelAbsences
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  name: updateAbsencePersonnel(DateTime, DateTime, Motif)
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_updateAbsencePersonnel_System_DateTime_System_DateTime_MediaTek86_Model_Motif_
+  commentId: M:MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  name.vb: updateAbsencePersonnel(Date, Date, Motif)
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(System.DateTime, System.DateTime, MediaTek86.Model.Motif)
+  fullName.vb: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel(Date, Date, MediaTek86.Model.Motif)
+  nameWithType: FrmAjoutModifAbsenceController.updateAbsencePersonnel(DateTime, DateTime, Motif)
+  nameWithType.vb: FrmAjoutModifAbsenceController.updateAbsencePersonnel(Date, Date, Motif)
+- uid: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel*
+  name: updateAbsencePersonnel
+  href: api/MediaTek86.Controller.FrmAjoutModifAbsenceController.html#MediaTek86_Controller_FrmAjoutModifAbsenceController_updateAbsencePersonnel_
+  commentId: Overload:MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel
+  isSpec: "True"
+  fullName: MediaTek86.Controller.FrmAjoutModifAbsenceController.updateAbsencePersonnel
+  nameWithType: FrmAjoutModifAbsenceController.updateAbsencePersonnel
 - uid: MediaTek86.Controller.FrmAjoutModifPersonnelController
   name: FrmAjoutModifPersonnelController
   href: api/MediaTek86.Controller.FrmAjoutModifPersonnelController.html
@@ -371,6 +457,22 @@ references:
   fullName.vb: MediaTek86.DAL.PersonnelAccess.New
   nameWithType: PersonnelAccess.PersonnelAccess
   nameWithType.vb: PersonnelAccess.New
+- uid: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  name: ajouterAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_ajouterAbsencePersonnel_MediaTek86_Model_Personnel_System_DateTime_System_DateTime_MediaTek86_Model_Motif_
+  commentId: M:MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  name.vb: ajouterAbsencePersonnel(Personnel, Date, Date, Motif)
+  fullName: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel, System.DateTime, System.DateTime, MediaTek86.Model.Motif)
+  fullName.vb: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel, Date, Date, MediaTek86.Model.Motif)
+  nameWithType: PersonnelAccess.ajouterAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  nameWithType.vb: PersonnelAccess.ajouterAbsencePersonnel(Personnel, Date, Date, Motif)
+- uid: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel*
+  name: ajouterAbsencePersonnel
+  href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_ajouterAbsencePersonnel_
+  commentId: Overload:MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel
+  isSpec: "True"
+  fullName: MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel
+  nameWithType: PersonnelAccess.ajouterAbsencePersonnel
 - uid: MediaTek86.DAL.PersonnelAccess.ajouterPersonnel(System.String,System.String,System.String,System.String,System.Int32)
   name: ajouterPersonnel(string, string, string, string, int)
   href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_ajouterPersonnel_System_String_System_String_System_String_System_String_System_Int32_
@@ -387,6 +489,19 @@ references:
   isSpec: "True"
   fullName: MediaTek86.DAL.PersonnelAccess.ajouterPersonnel
   nameWithType: PersonnelAccess.ajouterPersonnel
+- uid: MediaTek86.DAL.PersonnelAccess.getAllMotifs
+  name: getAllMotifs()
+  href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_getAllMotifs
+  commentId: M:MediaTek86.DAL.PersonnelAccess.getAllMotifs
+  fullName: MediaTek86.DAL.PersonnelAccess.getAllMotifs()
+  nameWithType: PersonnelAccess.getAllMotifs()
+- uid: MediaTek86.DAL.PersonnelAccess.getAllMotifs*
+  name: getAllMotifs
+  href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_getAllMotifs_
+  commentId: Overload:MediaTek86.DAL.PersonnelAccess.getAllMotifs
+  isSpec: "True"
+  fullName: MediaTek86.DAL.PersonnelAccess.getAllMotifs
+  nameWithType: PersonnelAccess.getAllMotifs
 - uid: MediaTek86.DAL.PersonnelAccess.getLesPersonnels
   name: getLesPersonnels()
   href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_getLesPersonnels
@@ -474,6 +589,22 @@ references:
   isSpec: "True"
   fullName: MediaTek86.DAL.PersonnelAccess.supprimerPersonnel
   nameWithType: PersonnelAccess.supprimerPersonnel
+- uid: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  name: updateAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_updateAbsencePersonnel_MediaTek86_Model_Personnel_System_DateTime_System_DateTime_MediaTek86_Model_Motif_
+  commentId: M:MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
+  name.vb: updateAbsencePersonnel(Personnel, Date, Date, Motif)
+  fullName: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel, System.DateTime, System.DateTime, MediaTek86.Model.Motif)
+  fullName.vb: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel, Date, Date, MediaTek86.Model.Motif)
+  nameWithType: PersonnelAccess.updateAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  nameWithType.vb: PersonnelAccess.updateAbsencePersonnel(Personnel, Date, Date, Motif)
+- uid: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel*
+  name: updateAbsencePersonnel
+  href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_updateAbsencePersonnel_
+  commentId: Overload:MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel
+  isSpec: "True"
+  fullName: MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel
+  nameWithType: PersonnelAccess.updateAbsencePersonnel
 - uid: MediaTek86.DAL.PersonnelAccess.updatePersonnel(System.Int32,System.String,System.String,System.String,System.String,System.Int32)
   name: updatePersonnel(int, string, string, string, string, int)
   href: api/MediaTek86.DAL.PersonnelAccess.html#MediaTek86_DAL_PersonnelAccess_updatePersonnel_System_Int32_System_String_System_String_System_String_System_String_System_Int32_
@@ -629,6 +760,32 @@ references:
   isSpec: "True"
   fullName: MediaTek86.Model.Absence.getDateDebut
   nameWithType: Absence.getDateDebut
+- uid: MediaTek86.Model.Absence.getDateFin
+  name: getDateFin()
+  href: api/MediaTek86.Model.Absence.html#MediaTek86_Model_Absence_getDateFin
+  commentId: M:MediaTek86.Model.Absence.getDateFin
+  fullName: MediaTek86.Model.Absence.getDateFin()
+  nameWithType: Absence.getDateFin()
+- uid: MediaTek86.Model.Absence.getDateFin*
+  name: getDateFin
+  href: api/MediaTek86.Model.Absence.html#MediaTek86_Model_Absence_getDateFin_
+  commentId: Overload:MediaTek86.Model.Absence.getDateFin
+  isSpec: "True"
+  fullName: MediaTek86.Model.Absence.getDateFin
+  nameWithType: Absence.getDateFin
+- uid: MediaTek86.Model.Absence.getMotif
+  name: getMotif()
+  href: api/MediaTek86.Model.Absence.html#MediaTek86_Model_Absence_getMotif
+  commentId: M:MediaTek86.Model.Absence.getMotif
+  fullName: MediaTek86.Model.Absence.getMotif()
+  nameWithType: Absence.getMotif()
+- uid: MediaTek86.Model.Absence.getMotif*
+  name: getMotif
+  href: api/MediaTek86.Model.Absence.html#MediaTek86_Model_Absence_getMotif_
+  commentId: Overload:MediaTek86.Model.Absence.getMotif
+  isSpec: "True"
+  fullName: MediaTek86.Model.Absence.getMotif
+  nameWithType: Absence.getMotif
 - uid: MediaTek86.Model.Motif
   name: Motif
   href: api/MediaTek86.Model.Motif.html
@@ -654,6 +811,32 @@ references:
   fullName.vb: MediaTek86.Model.Motif.New
   nameWithType: Motif.Motif
   nameWithType.vb: Motif.New
+- uid: MediaTek86.Model.Motif.ToString
+  name: ToString()
+  href: api/MediaTek86.Model.Motif.html#MediaTek86_Model_Motif_ToString
+  commentId: M:MediaTek86.Model.Motif.ToString
+  fullName: MediaTek86.Model.Motif.ToString()
+  nameWithType: Motif.ToString()
+- uid: MediaTek86.Model.Motif.ToString*
+  name: ToString
+  href: api/MediaTek86.Model.Motif.html#MediaTek86_Model_Motif_ToString_
+  commentId: Overload:MediaTek86.Model.Motif.ToString
+  isSpec: "True"
+  fullName: MediaTek86.Model.Motif.ToString
+  nameWithType: Motif.ToString
+- uid: MediaTek86.Model.Motif.getIdMotif
+  name: getIdMotif()
+  href: api/MediaTek86.Model.Motif.html#MediaTek86_Model_Motif_getIdMotif
+  commentId: M:MediaTek86.Model.Motif.getIdMotif
+  fullName: MediaTek86.Model.Motif.getIdMotif()
+  nameWithType: Motif.getIdMotif()
+- uid: MediaTek86.Model.Motif.getIdMotif*
+  name: getIdMotif
+  href: api/MediaTek86.Model.Motif.html#MediaTek86_Model_Motif_getIdMotif_
+  commentId: Overload:MediaTek86.Model.Motif.getIdMotif
+  isSpec: "True"
+  fullName: MediaTek86.Model.Motif.getIdMotif
+  nameWithType: Motif.getIdMotif
 - uid: MediaTek86.Model.Motif.getLibelle
   name: getLibelle()
   href: api/MediaTek86.Model.Motif.html#MediaTek86_Model_Motif_getLibelle

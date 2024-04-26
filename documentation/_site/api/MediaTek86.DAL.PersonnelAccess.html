@@ -85,7 +85,7 @@
 
 
   <h1 id="MediaTek86_DAL_PersonnelAccess" data-uid="MediaTek86.DAL.PersonnelAccess" class="text-break">
-Class PersonnelAccess  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Class PersonnelAccess  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,7 +153,7 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="MediaTek86_DAL_PersonnelAccess__ctor" data-uid="MediaTek86.DAL.PersonnelAccess.#ctor">
   PersonnelAccess()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Constructeur, valorisation de la propriété access</p>
@@ -180,11 +180,49 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
+  <a id="MediaTek86_DAL_PersonnelAccess_ajouterAbsencePersonnel_" data-uid="MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel*"></a>
+
+  <h3 id="MediaTek86_DAL_PersonnelAccess_ajouterAbsencePersonnel_MediaTek86_Model_Personnel_System_DateTime_System_DateTime_MediaTek86_Model_Motif_" data-uid="MediaTek86.DAL.PersonnelAccess.ajouterAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)">
+  ajouterAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ajoute une absence pour un personnel dans la base de données</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ajouterAbsencePersonnel(Personnel personnel, DateTime dateDebut, DateTime dateFin, Motif motif)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>personnel</code> <a class="xref" href="MediaTek86.Model.Personnel.html">Personnel</a></dt>
+    <dd></dd>
+    <dt><code>dateDebut</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>dateFin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>motif</code> <a class="xref" href="MediaTek86.Model.Motif.html">Motif</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="MediaTek86_DAL_PersonnelAccess_ajouterPersonnel_" data-uid="MediaTek86.DAL.PersonnelAccess.ajouterPersonnel*"></a>
 
   <h3 id="MediaTek86_DAL_PersonnelAccess_ajouterPersonnel_System_String_System_String_System_String_System_String_System_Int32_" data-uid="MediaTek86.DAL.PersonnelAccess.ajouterPersonnel(System.String,System.String,System.String,System.String,System.Int32)">
   ajouterPersonnel(string, string, string, string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Ajoute un nouveau personnel dans la base de données</p>
@@ -220,11 +258,44 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <a id="MediaTek86_DAL_PersonnelAccess_getAllMotifs_" data-uid="MediaTek86.DAL.PersonnelAccess.getAllMotifs*"></a>
+
+  <h3 id="MediaTek86_DAL_PersonnelAccess_getAllMotifs" data-uid="MediaTek86.DAL.PersonnelAccess.getAllMotifs">
+  getAllMotifs()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Récupère la liste  des motifs dans la base de données</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Motif&gt; getAllMotifs()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MediaTek86.Model.Motif.html">Motif</a>&gt;</dt>
+    <dd><p>List de Motif</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="MediaTek86_DAL_PersonnelAccess_getLesPersonnels_" data-uid="MediaTek86.DAL.PersonnelAccess.getLesPersonnels*"></a>
 
   <h3 id="MediaTek86_DAL_PersonnelAccess_getLesPersonnels" data-uid="MediaTek86.DAL.PersonnelAccess.getLesPersonnels">
   getLesPersonnels()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Récupère la liste des personnels</p>
@@ -257,7 +328,7 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="MediaTek86_DAL_PersonnelAccess_getMotifLibelle_System_Int32_" data-uid="MediaTek86.DAL.PersonnelAccess.getMotifLibelle(System.Int32)">
   getMotifLibelle(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Récupère le libelle d'un motif</p>
@@ -295,7 +366,7 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="MediaTek86_DAL_PersonnelAccess_getNomServices" data-uid="MediaTek86.DAL.PersonnelAccess.getNomServices">
   getNomServices()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L236"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Récupère la liste des noms de services</p>
@@ -328,7 +399,7 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="MediaTek86_DAL_PersonnelAccess_getPersonnelAbsences_System_Int32_" data-uid="MediaTek86.DAL.PersonnelAccess.getPersonnelAbsences(System.Int32)">
   getPersonnelAbsences(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Récupère la liste des absences d'un personnel dans la base de données</p>
@@ -366,7 +437,7 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="MediaTek86_DAL_PersonnelAccess_supprimerAbsence_MediaTek86_Model_Personnel_MediaTek86_Model_Absence_" data-uid="MediaTek86.DAL.PersonnelAccess.supprimerAbsence(MediaTek86.Model.Personnel,MediaTek86.Model.Absence)">
   supprimerAbsence(Personnel, Absence)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Supprime une absence d'un personnel dans la base de données</p>
@@ -400,7 +471,7 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="MediaTek86_DAL_PersonnelAccess_supprimerPersonnel_System_Int32_" data-uid="MediaTek86.DAL.PersonnelAccess.supprimerPersonnel(System.Int32)">
   supprimerPersonnel(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L190"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Supprime un personnel de la base de données</p>
@@ -428,11 +499,49 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <a id="MediaTek86_DAL_PersonnelAccess_updateAbsencePersonnel_" data-uid="MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel*"></a>
+
+  <h3 id="MediaTek86_DAL_PersonnelAccess_updateAbsencePersonnel_MediaTek86_Model_Personnel_System_DateTime_System_DateTime_MediaTek86_Model_Motif_" data-uid="MediaTek86.DAL.PersonnelAccess.updateAbsencePersonnel(MediaTek86.Model.Personnel,System.DateTime,System.DateTime,MediaTek86.Model.Motif)">
+  updateAbsencePersonnel(Personnel, DateTime, DateTime, Motif)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Met à jour une absence d'un personnel dans la base de données</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void updateAbsencePersonnel(Personnel personnel, DateTime dateDebut, DateTime dateFin, Motif motif)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>personnel</code> <a class="xref" href="MediaTek86.Model.Personnel.html">Personnel</a></dt>
+    <dd></dd>
+    <dt><code>dateDebut</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>dateFin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>motif</code> <a class="xref" href="MediaTek86.Model.Motif.html">Motif</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="MediaTek86_DAL_PersonnelAccess_updatePersonnel_" data-uid="MediaTek86.DAL.PersonnelAccess.updatePersonnel*"></a>
 
   <h3 id="MediaTek86_DAL_PersonnelAccess_updatePersonnel_System_Int32_System_String_System_String_System_String_System_String_System_Int32_" data-uid="MediaTek86.DAL.PersonnelAccess.updatePersonnel(System.Int32,System.String,System.String,System.String,System.String,System.Int32)">
   updatePersonnel(int, string, string, string, string, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Met à jour les informations concernant un personnel dans la base de données</p>
@@ -474,7 +583,7 @@ Class PersonnelAccess  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L16" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DevBlocks42/MediaTek86/blob/master/DAL/PersonnelAccess.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 

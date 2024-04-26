@@ -580,7 +580,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../View/FrmConnexion.cs
-    startLine: 14
+    startLine: 13
   assemblies:
   - MediaTek86
   namespace: MediaTek86.View

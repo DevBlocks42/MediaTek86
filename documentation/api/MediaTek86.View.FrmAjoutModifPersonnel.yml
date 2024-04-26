@@ -580,7 +580,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../View/FrmAjoutModifPersonnel.cs
-    startLine: 26
+    startLine: 17
   assemblies:
   - MediaTek86
   namespace: MediaTek86.View

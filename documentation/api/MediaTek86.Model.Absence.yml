@@ -8,6 +8,8 @@ items:
   - MediaTek86.Model.Absence.#ctor(System.Int32,System.DateTime,System.DateTime,MediaTek86.Model.Motif)
   - MediaTek86.Model.Absence.ToString
   - MediaTek86.Model.Absence.getDateDebut
+  - MediaTek86.Model.Absence.getDateFin
+  - MediaTek86.Model.Absence.getMotif
   langs:
   - csharp
   - vb
@@ -22,7 +24,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: Absence
     path: ../Model/Absence.cs
-    startLine: 12
+    startLine: 5
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -58,7 +60,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: .ctor
     path: ../Model/Absence.cs
-    startLine: 25
+    startLine: 18
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -102,7 +104,7 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: getDateDebut
     path: ../Model/Absence.cs
-    startLine: 36
+    startLine: 29
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
@@ -115,6 +117,68 @@ items:
       description: DateTime date
     content.vb: Public Function getDateDebut() As Date
   overload: MediaTek86.Model.Absence.getDateDebut*
+- uid: MediaTek86.Model.Absence.getDateFin
+  commentId: M:MediaTek86.Model.Absence.getDateFin
+  id: getDateFin
+  parent: MediaTek86.Model.Absence
+  langs:
+  - csharp
+  - vb
+  name: getDateFin()
+  nameWithType: Absence.getDateFin()
+  fullName: MediaTek86.Model.Absence.getDateFin()
+  type: Method
+  source:
+    remote:
+      path: Model/Absence.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: getDateFin
+    path: ../Model/Absence.cs
+    startLine: 37
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Model
+  summary: Getter sur dateFin
+  example: []
+  syntax:
+    content: public DateTime getDateFin()
+    return:
+      type: System.DateTime
+      description: DateTime dateFin
+    content.vb: Public Function getDateFin() As Date
+  overload: MediaTek86.Model.Absence.getDateFin*
+- uid: MediaTek86.Model.Absence.getMotif
+  commentId: M:MediaTek86.Model.Absence.getMotif
+  id: getMotif
+  parent: MediaTek86.Model.Absence
+  langs:
+  - csharp
+  - vb
+  name: getMotif()
+  nameWithType: Absence.getMotif()
+  fullName: MediaTek86.Model.Absence.getMotif()
+  type: Method
+  source:
+    remote:
+      path: Model/Absence.cs
+      branch: master
+      repo: https://github.com/DevBlocks42/MediaTek86
+    id: getMotif
+    path: ../Model/Absence.cs
+    startLine: 45
+  assemblies:
+  - MediaTek86
+  namespace: MediaTek86.Model
+  summary: Getter sur motif
+  example: []
+  syntax:
+    content: public Motif getMotif()
+    return:
+      type: MediaTek86.Model.Motif
+      description: Motif motif
+    content.vb: Public Function getMotif() As Motif
+  overload: MediaTek86.Model.Absence.getMotif*
 - uid: MediaTek86.Model.Absence.ToString
   commentId: M:MediaTek86.Model.Absence.ToString
   id: ToString
@@ -133,11 +197,11 @@ items:
       repo: https://github.com/DevBlocks42/MediaTek86
     id: ToString
     path: ../Model/Absence.cs
-    startLine: 44
+    startLine: 53
   assemblies:
   - MediaTek86
   namespace: MediaTek86.Model
-  summary: Redéfint l'affichage par défaut de l'objet Absence
+  summary: Redéfinit l'affichage par défaut de l'objet Absence
   example: []
   syntax:
     content: public override string ToString()
@@ -427,6 +491,18 @@ references:
   name: getDateDebut
   nameWithType: Absence.getDateDebut
   fullName: MediaTek86.Model.Absence.getDateDebut
+- uid: MediaTek86.Model.Absence.getDateFin*
+  commentId: Overload:MediaTek86.Model.Absence.getDateFin
+  href: MediaTek86.Model.Absence.html#MediaTek86_Model_Absence_getDateFin
+  name: getDateFin
+  nameWithType: Absence.getDateFin
+  fullName: MediaTek86.Model.Absence.getDateFin
+- uid: MediaTek86.Model.Absence.getMotif*
+  commentId: Overload:MediaTek86.Model.Absence.getMotif
+  href: MediaTek86.Model.Absence.html#MediaTek86_Model_Absence_getMotif
+  name: getMotif
+  nameWithType: Absence.getMotif
+  fullName: MediaTek86.Model.Absence.getMotif
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
