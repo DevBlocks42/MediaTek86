@@ -311,7 +311,7 @@ namespace MediaTek86.DAL
         /// <param name="motif"></param>
         public void updateAbsencePersonnel(Personnel personnel, DateTime dateDebut, DateTime dateFin, Motif motif)
         {
-            String req = "UPDATE absence SET datedebut=@datedebut, datefin=@datefin, idmotif=@idmotif WHERE idpersonnel=@idpersonnel AND datedebut=@datedebut;";
+            String req = "UPDATE absence SET datedebut=@datedebut, datefin=@datefin, idmotif=@idmotif WHERE idpersonnel=@idpersonnel AND datefin=@datefin OR datedebut=@datedebut;";
             Dictionary<string, object> parameters = new Dictionary<string, object>()
             {
                 {"@idpersonnel", personnel.getIdPersonnel()},
