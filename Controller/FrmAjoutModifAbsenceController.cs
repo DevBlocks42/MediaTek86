@@ -28,14 +28,31 @@ namespace MediaTek86.Controller
         {
             return personnelAccess.getAllMotifs();
         }
+        /// <summary>
+        /// Retourne la liste des absences d'un personnel
+        /// </summary>
+        /// <param name="idPersonnel"></param>
+        /// <returns>List d'Absence</returns>
         public List<Absence> getPersonnelAbsences(int idPersonnel)
         {
             return personnelAccess.getPersonnelAbsences(idPersonnel);
         }
+        /// <summary>
+        /// Ajoute une absence
+        /// </summary>
+        /// <param name="dateDebut"></param>
+        /// <param name="dateFin"></param>
+        /// <param name="motif"></param>
         public void ajouterAbsence(DateTime dateDebut, DateTime dateFin, Motif motif)
         {
             personnelAccess.ajouterAbsencePersonnel(this.personnel, dateDebut, dateFin, motif);
         }
+        /// <summary>
+        /// Met à jour les informations concernant une absence d'un personnel
+        /// </summary>
+        /// <param name="dateDebut"></param>
+        /// <param name="dateFin"></param>
+        /// <param name="motif"></param>
         public void updateAbsencePersonnel(DateTime dateDebut, DateTime dateFin, Motif motif)
         {
             if(absence != null)

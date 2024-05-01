@@ -189,7 +189,7 @@ namespace MediaTek86.DAL
         /// <param name="idPersonnel"></param>
         public void supprimerPersonnel(int idPersonnel)
         {
-            String req = "DELETE FROM personnel WHERE idpersonnel=@idpersonnel";
+            String req = "DELETE FROM personnel WHERE idpersonnel=@idpersonnel;";
             Dictionary<string, object> parameters = new Dictionary<string, object>()
             {
                 {"@idpersonnel", idPersonnel}
