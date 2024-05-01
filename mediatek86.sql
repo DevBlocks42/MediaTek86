@@ -1,4 +1,5 @@
 //Configuration du nouvel utilisateur et de la base de données utilisée par l'application
+//Note : requiert l'installation préalable du SGBD MySql
 
 CREATE USER 'dbadmin'@'localhost' IDENTIFIED BY 'P@$$word2';
 CREATE DATABASE mediatek86;
